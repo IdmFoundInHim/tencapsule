@@ -1,0 +1,318 @@
+/* The Ten Capsule (TM) 2017
+	Created as a division of Surprise Ministries by Isaac M. */
+
+/*General Rules*/
+*{
+	font-family: Verdana, Geneva, 'DejaVu Sans', sans-serif;
+	font-size:16px;
+}
+body{
+	background:#FFF9E9;
+}
+
+
+/*Link Settings */
+a:link{
+	color: #2a003e;
+}
+
+a:visited{
+	color: #9c1900;
+}
+
+a:hover{
+	color:#980000;
+	text-decoration: none;
+}
+
+a{
+	/*This ruleset allows rules to be inherited from the paragraph where needed*/
+	font-size: inherit;
+}
+
+.lessonhead a {
+	/* For Links to Verses*/
+	font-family:Lucida Bright, serif;
+	color:#9c0000;
+	font-size:1.5em;
+	text-align: center;
+}
+
+ /*Button Settings*/
+.button{
+	height:4.7rem;
+	width:7.7rem;
+	border:1px solid #000000;
+	background:#e8d9c5;
+	border-radius:1.5625rem;
+	display:block;
+	clear:both;
+	margin:auto;
+	text-align:center;
+}
+
+.buttontext{
+	clear:both;
+	font-size:1.45rem;
+	margin:auto;
+	line-height: 2rem;
+}
+
+.uline{
+	text-decoration:underline;
+}
+
+/* Text Settings */
+h1{
+	font-family:'Lucida Bright', serif;
+	color:#9c0000;
+	font-style:italic;
+	font-size:3rem;
+	text-align:center;
+	text-decoration:underline;
+	margin: 1.5rem 0;
+	line-height: 3rem;
+}
+
+h2{
+	font-family:'Lucida Bright', serif;
+	color:#9c0000;
+	font-size:2rem;
+	text-align:center;
+	margin: 1.5rem 0;
+	line-height: 2rem;
+}
+
+.sectionhead{
+	font-family:Lucida Bright, serif;
+	color:#9c0000;
+	font-style:italic;
+	font-size:1.7rem;
+	text-align: center;
+	text-decoration: underline;
+	margin: 2rem 0;
+	line-height: 2rem;
+}
+
+.lessonhead{
+	font-family:Lucida Bright, serif;
+	color:#9c0000;
+	font-size:1.5rem;
+	text-align: center;
+	margin: 1rem 0;
+	line-height: 2rem;
+}
+.verse{
+	color:#db0404;
+	font-family:'Century Gothic',Futura,'Apple Gothic',AppleGothic,'URW Gothic L','Avant Garde',sans-serif;
+	font-style: italic;
+	font-size:1.2rem;
+	text-align:center;
+	display: block;
+	max-width: 86%;
+	/*min-height: 48px;*/
+	height: auto;
+	margin: 1rem auto 2rem auto;
+	line-height: 1.5rem;
+}
+
+p{
+	line-height: 1.5rem;
+	height: auto;
+	display: block;
+}
+.descrip{
+	text-align:justify;
+	max-width: 80%;
+	margin: 2rem auto 1rem auto;
+	font-size:1rem;
+}
+
+#intro, #end, .saved{
+	max-width: 92%;
+	margin: 2rem auto 2rem auto;
+}
+
+#intro p {
+	margin: 1rem auto 1rem auto;
+}
+   /* Adds Verse Number Superscript Effect*/
+.verse{
+	/*The following line-height command creates the required space for the superscript effect*/
+	line-height:1.5rem;
+}
+
+.vsnum{
+	/*The following three commands (bottom, position, font-size) create a superscript effect wo/ messing up spacing*/
+	bottom:0.5em;
+	position: relative;
+	font-size:0.6em
+}
+
+	/*Not in Capsule 1*/
+.further{
+	margin: 2rem auto 1rem auto;
+	max-width: 86%;
+
+}
+
+	/*Breaking Down the Lord's Prayer in Capsule 2 */
+#prayer {
+	border: 1px solid black;
+	padding: 0 6% ;
+}
+
+#prayer h5{
+	text-decoration: underline;
+	text-align: center;
+	font-size: 1.1rem;
+}
+
+#prayer-format{
+	font-size: 1rem;
+}
+
+#prayer-format p{
+	border:2px 0px solid grey;
+}
+
+
+
+#copyinfo p{
+    font-family:'Courier New', Courier, monospace;
+    color:black;
+    font-size:0.7rem;
+	line-height: 1rem;
+	margin-top: 1rem;
+
+}
+
+hr {
+	background:black;
+	border-color: black;
+	color: black;
+}
+
+
+
+
+/*NavBar (See Exp. 1)*/
+.NavButton{
+	display: inline-block;
+	height:auto;
+	border:1px solid #000000;
+	background:#e8d9c5;
+	border-radius:1.5625em;
+	text-align:center;
+	vertical-align: top;
+}
+.LargeNavButton{
+	display: inline-block;	
+	height:auto;
+	border:1px solid #000000;
+	background:#e8d9c5;
+	border-radius:1.5rem;
+	text-align:center;
+	vertical-align: top;
+
+}
+@media only screen and (min-width:1851px){
+.NavButton h3, .LargeNavButton h3{
+	font-size: 1.7rem;
+}
+
+.NavButton{
+	width: 290px;
+}
+.LargeNavButton{
+	width: 580px;
+}
+#logo{
+	width: 322px;
+	display: inline-block;
+}
+
+#logo img{
+	width: 100%
+}
+}
+@media only screen and (min-width: 880px) and (max-width:1850px){
+.NavButton h3, .LargeNavButton h3{
+	font-size: 1.4rem;
+}
+.NavButton{
+	width: 16%;
+}
+.LargeNavButton{
+	width: 32%;
+}
+#logo img{
+	width: 100%;
+}
+#logo {
+	display: inline-block;
+	width: 30%;
+	max-width: 300px;
+	height: auto /*110.5px*/;
+}
+@media only screen and (max-width:1040px){
+	.NavButton, .LargeNavButton{
+		height: 88.4px;
+	}
+	.NavButton h3{
+		margin: 30.2px auto;
+	}
+	.LargeNavButton h3{
+		margin: 16.2px auto;
+	}
+}
+}
+
+@media only screen and (min-width: 600px) and (max-width:879px){
+.NavButton h3, .LargeNavButton h3{
+	font-size: 1.2rem;
+}
+.NavButton{
+	width: 24%;
+}
+.LargeNavButton{
+	width: 48%;
+}
+#logo img{
+	margin: auto auto 1rem auto;
+	display: block;
+	width: auto;
+	/*max-width: 350px;*/
+	height: 140px;
+}
+}
+
+@media only screen and (max-width: 599px){
+.NavButton h3{
+	font-size: 1.5rem;
+	margin: 11px 0 11px 0;
+}
+#logo img, .NavButton, .LargeNavButton{
+	margin: auto;
+	display: block;
+	margin-bottom: .25rem;
+}
+#logo img{
+	width: auto;
+	height: 115px;
+	margin-bottom: .5rem;
+}
+}
+
+@media only screen and (max-width: 320px){
+	#logo img{
+		width: auto;
+		height: 100px;
+	}
+}
+
+
+
+
+
+

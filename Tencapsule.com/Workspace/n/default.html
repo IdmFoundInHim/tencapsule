@@ -1,0 +1,180 @@
+﻿<!DOCTYPE html>
+<!-- The Ten Capsule (C) 2018
+	Created as a division of Surprise Ministries by Isaac M.-->
+<html lang="en">
+    <head>
+       <title>The Ten Capsule</title> 
+       <link type='text/css' rel='stylesheet' href='home.css' />
+       <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.2.1.min.js"></script>
+       <script src='home.js'></script>
+       <link rel='shortcut icon' href='favicon.png'/>
+       <meta charset='utf-8' />
+       <meta name='viewport' content='width=device-width, initial-scale=1'>       
+    </head>
+    <body>
+        <div id='titlebar'>
+            <div id='iSeriesButton' class='NavButton'>
+                <h3>Intro to The Bible</h3>
+            </div><!--
+            --><a href='capsule3/default.html'><div id='pSeriesButton' class='NavButton'>
+                <h3>Capsule 3</h3>
+            </div></a><!--
+            --><a href='/'><div id='logo' class='NavButton'>
+                <img src='images/Logo.1.2.png' alt='Go to Homepage'/>
+            </div></a><!--
+            --><a href='gospel/default.html'><div id='sSeriesButton' class='NavButton'>
+                <h3>Road to Salvation Capsule</h3>
+            </div></a>
+        </div>
+        <div id='iSeriesDropdown'>
+            <a href='capsule1/default.html'><div class='iDropButton'><h3>Capsule 1</h3></div></a><!--
+            --><a href='capsule2/default.html'><div class='iDropButton'><h3>Capsule 2</h3></div></a>
+        </div>
+        <div id='titlemobile'>
+            <div id='logoM'><a href='http://tencapsule.com'>
+                <img src='images/Logo.1.2.png' alt='Go to Homepage'/>
+            </a></div>
+            <div id='iMobileButton' class='NavButton hideMD'>
+            <h3 class='hideMD'>Intro to The Bible</h3>
+            </div><!--
+            --><a href='capsule3/default.html' class='hideMD'><div id='pMobileButton' class='NavButton' >
+                <h3>Capsule 3</h3>
+            </div></a><!--
+            --><a href='gospel/default.html' class='hideMD'><div id='sMobileButton' class='NavButton'>
+                <h3>Road to Salvation Capsule</h3>
+            </div></a>
+            <a href='capsule1/default.html' class='showMD'><div class='NavButton' ><h3>Capsule 1</h3></div></a><!--
+            --><a href='capsule2/default.html' class='showMD'><div class='NavButton showMD'><h3>Capsule 2</h3></div></a>
+        </div>
+        <div id='slogan'><h1 class='attention'>You are one step away from a new life</h1></div>
+        <div id='carousel'>
+            <div id='iSCont'><a href='capsule1/default.html'><div id='iSPic'>
+                <div class='txtContain'>
+                    <h2 style='text-align: left;'>New to the Bible?</h2>
+                    <p>We can help.  Start our Intro to the Bible series today.</p>
+                </div>
+            </div></a></div>
+            <div id='sSCont'><a href='gospel/default.html'><div id='sSPic'>
+                <div class='txtContain'>
+                    <h2 style='text-align: left;'>Are you going to heaven?</h2>
+                    <p>If you are not sure, check out our Road to Salvation Capsule.</p>
+                </div>
+            </div></a></div>
+            <div id='pSCont'><a href='capsule3/default.html'><div id='pSPic'>
+                <div class='txtContain'>
+                    <h2 style='text-align: left;'>Do you want a deeper relationship with God?</h2>
+                    <p>Reading the Bible is a great way to start.  Unlock the knowledge of His Word with the God's Plan series.</p>
+                </div>
+            </div></a></div>
+        </div>
+        <div id='intro'>
+            <p>The Ten Capsule is a program that guides you through the main points of the Bible. If you have little or no earlier experience with the Bible, <a href='http://www.biblica.com/en-us/bible/bible-faqs/what-is-the-bible/'>click here</a> for an explanation of what the Bible is and why it is important. In other words, it gives a &ldquo;capsule view&rdquo; of the Bible&rsquo;s message. You will read ten sections of the Bible and an interpretation of the passage in each &ldquo;capsule&rdquo; which is a set of lessons. You can always work through the capsules on your own time.</p>
+            <p>Before you begin, I recommend you have a physical Bible with you or that you can access a Bible website like <a href='https://www.biblegateway.com/'>BibleGateway</a>. Certain capsules will have the Bible excerpt on the webpage. In that case, the verses may be in many different versions due to copyright requirements. I recommend the NIV or NIrV for readability. <!--The concept of different versions/translations of the Bible is explained here.--></p>
+            <p>My disclaimer is this: The Bible is written by God and every chapter, verse, word, and letter is important. These capsules could never explain every point in the Bible. These capsules help you to understand the Bible&rsquo;s main purpose: to tell the world about how God deeply loves us.</p>
+        </div>      
+        <div id='query'>
+            <div id='phase1'>
+                <p class='jsonly'>If you aren't sure where to start, click here</p>
+                <p class='nojs'>Enable JavaScript to get recommendations</p>
+            </div>
+        </div> 
+        <div id='rec_storage' style='display:none;'>NONE</div> <!--Stores quiz results for jQuery retrieval-->
+        <div id='curtain'></div>
+        <div id='query-box'>  
+            <div id='phase2'>
+                <p>Do you believe Jesus has saved you from the punishment for your sins?  If you are not sure or want to be sure, <a href='gospel/default.html'>click here</a>.</p>
+                <div id='p2y'>Yes</div> <!--To #saved-->
+                <div class='c1r'>I have no idea what you said</div> <!--To #c1rec-->
+                <div id='p2n'>No</div>    <!--To #search-->            
+            </div>
+            <div id='saved' class='phase3'>
+                <p>Have you read your Bible at all (including at church or school) in the last two months</p>
+                <div id='p3y'>Yes</div> <!--To #wants-->
+                <div class='c2r'>No, but I used to</div> <!--To #c2rec-->
+                <div class='c1r'>No, I never have</div> <!--To #c1rec-->
+            </div>
+            <div id='search' class='phase3'>
+                <p>Who is Jesus</p>
+                <div class='rsr'>God's Son who died to save the world and came back to life.</div> <!--To #rtsrec-->
+                <div class='c2r'>People have told me he died and came back to life, but I don't fully believe that.</div> <!--To #c2rec-->
+                <div class='c1r'>Someone Else</div> <!--To #c1rec-->
+            </div>
+            <div id='wants' class='phase4'>
+                <p>What do you want to do?</p>
+                <div class='c1r'>Learn what the Bible is all about</div> <!--To #c1rec-->
+                <div class='c2r'>Really Understand why the Bible is important</div> <!--To #c2rec-->
+                <div class='c3r'>Start reading my Bible on my own</div> <!--To #c3rec-->
+            </div>
+            <div id='c1rec' class='result'>
+                <p>I recommend starting at Capsule 1</p>
+                <div id='c1recbutton' class='button'>
+                    <h3><a href='capsule1/default.html'>Capsule 1</a></h3>
+                </div>
+            </div>
+            <div id='c2rec' class='result'>
+                <p>I recommend starting at Capsule 2</p>
+                <div id='c2recbutton' class='button'>
+                    <h3><a href='capsule2/default.html'>Capsule 2</a></h3>
+                </div>
+            </div>
+            <div id='c3rec' class='result'>
+                <p>I recommend starting at Capsule 3</p>
+                <div id='c3recbutton' class='button'>
+                    <h3><a href='capsule3/default.html'>Capsule 3</a></h3>
+                </div>
+            </div>
+            <div id='rtsrec' class='result'>
+                <p>I recommend starting at the Road to Salvation Capsule</p>
+                <div id='rtsrecbutton' class='button'>
+                    <h3><a href='gospel/default.html'>Road to Salvation</a></h3>
+                </div>
+            </div>
+            <div id='close-button' class='button'>
+                X Close
+            </div>
+        </div>  
+        <div id='links'>
+            <h3 class='attention'>All Capsules</h3>
+            <div id='introSeries'>
+                <h2>Intro to the Bible</h2>
+                <p>This is the Intro to the Bible Series.  It goes through the basic plotline of the Bible.</p>
+                <div id='c1button' class='button'>
+                    <h3><a href='capsule1/default.html'>Capsule 1</a></h3>
+                </div>
+                <p>Capsule 1 is a brief summary of the Bible's main plot using short Scripture passages.</p>
+                <div id='c2button' class='button'>
+                    <h3><a href='capsule1/default.html'>Capsule 2</a></h3>
+                </div>
+                <p>Capsule 2 is a basic summary of the Bible's highlights.</p>
+            </div>
+            <div id='specialSeries'>
+                <h2>Road to Salvation</h2>
+                <p>Are you going to heaven?  If you don't know, there is a way to be sure.  Check out the Road to Salvation Capsule.</p>
+                <div id='rtsbutton' class='button'>
+                    <h3><a href='gospel/default.html'>RTS Capsule</a></h3>
+                </div>
+            </div>
+            <div id='planSeries'>
+                <h2>God's Plan</h2>
+                <p>The God's Plan Series is made of three capsules.  The first focuses on God's first relationship with man.  The second focuses on the coming of Jesus to redeem the world.  The third focuses on how we can build a relationship with Him through Jesus</p>
+                <div id='c3button' class='button'>
+                    <h3><a href='capsule3/default.html'>Capsule 3</a></h3>
+                </div>
+                <p>Capsule 3 is...</p>
+                <!--<div id='c4button' class='button'>
+                    <h3><a href='capsule4/default.html'>Capsule 4</a></h3>
+                </div>
+                <p>Capsule 4 is...</p>
+                <div id='c5button' class='button'>
+                    <h3><a href='capsule5/default.html'>Capsule 5</a></h3>
+                </div>
+                <p>Capsule 5 is...</p>-->
+            </div>
+            <h3 class='attention'>The God's Plan series will be completed with capsules 4 and 5 coming soon.</h4>         
+        </div>
+        <div id='disclaim'>
+            <p>Another disclaimer:  This domain contains many external links.  I cannot make any guarantees on the content of other domains.  I also do not claim any official endorsements on these websites.</p>
+        </div>
+        <p style='font-size: 8px'><a href='EdRecord.txt'>I-2.int03 (Internal Release - Updated Homepage Revised)</a></p>   
+    </body>
+</html>
