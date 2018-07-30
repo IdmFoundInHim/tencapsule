@@ -229,21 +229,33 @@ h2{
 }
 
 #iSPic{
-	background:url('iSPic.jpg');
+	background:url('../images/iSPicNew.jpg') 0/100% auto no-repeat;
 	height: 300px;
 	color: white;
 }
 
 #sSPic{
-	background:url('sSPic.jpg') 0/auto 300px;
+	background:url('../images/sSPicNew.jpg') 0/100% 100% no-repeat;
 	height: 300px;
 	color: white;
 }
 
 #pSPic{
-	background:url('pSPic.jpg') 0/auto 300px;
+	background:url('../images/pSPicNew.jpg') 0/100% auto no-repeat;
 	height: 300px;
 	color: white;
+}
+
+@media only screen and (max-width: 800px){
+	#iSPic{
+		background-size: 100% 100%;
+	}
+	#sSPic{
+		background-size: 100% 100%;
+	}
+	#pSPic{
+		background-size: 100% 100%;
+	}
 }
 
 #iSCont{
