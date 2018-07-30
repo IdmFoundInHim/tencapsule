@@ -229,32 +229,36 @@ h2{
 }
 
 #iSPic{
-	background:url('../images/iSPicNew.jpg') 0/100% auto no-repeat;
-	height: 300px;
-	color: white;
+	background:url('../images/iSPic.jpg') no-repeat;
 }
 
 #sSPic{
-	background:url('../images/sSPicNew.jpg') 0/100% 100% no-repeat;
-	height: 300px;
-	color: white;
+	background:url('../images/sSPic.jpg') no-repeat;
 }
 
 #pSPic{
-	background:url('../images/pSPicNew.jpg') 0/100% auto no-repeat;
+	background:url('../images/pSPic.jpg') no-repeat;
+}
+
+#iSPic, #sSPic, #pSPic{
+	background-size: 100%;
+	background-position: center center;
 	height: 300px;
 	color: white;
 }
 
-@media only screen and (max-width: 800px){
-	#iSPic{
-		background-size: 100% 100%;
-	}
+/* The following rules enable when the image can no longer scale down properly
+   At that point, the image will stop scaling and will allow itself to crop
+   automatically. */
+@media only screen and (max-width: 1070px){
 	#sSPic{
-		background-size: 100% 100%;
+		background-size: auto 300px;
 	}
-	#pSPic{
-		background-size: 100% 100%;
+
+}
+@media only screen and (max-width: 450px){
+	#iSPic, #pSPic{
+		background-size: auto 300px;
 	}
 }
 
