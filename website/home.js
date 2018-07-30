@@ -9,48 +9,48 @@ $(function () {
     }
     $('#phase1').click(function () {
         $('#phase1').hide();
-        if ($('#rec_storage').text() == "NONE"){
+        if ($('#rec_storage').text() == 'NONE'){
             $('#phase2').show();  
         }else{
-            toRec($('#rec_storage').text())
+            toRec($('#rec_storage').text());
         }
         $('#query-box').show();
         $('#curtain').show();
-    })
+    });
     $('#p2y').click(function () {
         $('#phase2').hide();
         $('#saved').show();
-    })
+    });
     $('#p2n').click(function () {
         $('#phase2').hide();
         $('#search').show();
-    })
+    });
     $('#p3y').click(function () {
         $('.phase3').hide();
         $('#wants').show();
-    })
+    });
     $('.c1r').click(function () {
         $('#rec_storage').text('#c1rec');
         toRec($('#rec_storage').text());
-    })
+    });
     $('.c2r').click(function () {
         $('#rec_storage').text('#c2rec');
         toRec($('#rec_storage').text());
-    })
+    });
     $('.c3r').click(function () {
         $('#rec_storage').text('#c3rec');
         toRec($('#rec_storage').text());
-    })
+    });
     $('.rsr').click(function () {
         $('#rec_storage').text('#rtsrec');
         toRec($('#rec_storage').text());
-    })
+    });
     $('#close-button').click(function () {
         $('#query-box').hide();
         $('#phase1').show();
         $('#curtain').hide();
-    })
-})
+    });
+});
 
 //jQuery Function Set 2: NavBar
 $(function () {
@@ -59,14 +59,14 @@ $(function () {
     })*/
     $(document).click(function(event) { 
         if(!$(event.target).closest('#titlebar').length) {
-            if($('#titlebar').is(":visible")) {
-                    $('#iSeriesDropdown').hide();
+            if($('#titlebar').is(':visible')) {
+                $('#iSeriesDropdown').hide();
             }
         }        
     });
     $('#iSeriesButton').click(function () {
         $('#iSeriesDropdown').show();
-    })
+    });
     /*Needs Revised
     $(document).width.change(function () {
         $('#iSeriesDropdown').hide();
@@ -75,12 +75,12 @@ $(function () {
             $('.hideMD').show();
         }
     })*/
-})
+});
 
 $(function () {
     $(document).click(function(event) { 
         if(!$(event.target).closest('#titlemobile').length) {
-            if($('#titlemobile').is(":visible")) {
+            if($('#titlemobile').is(':visible')) {
                 $('.showMD').hide();
                 $('.hideMD').show();
             }
@@ -89,8 +89,8 @@ $(function () {
     $('#iMobileButton').click(function () {
         $('.showMD').show();
         $('.hideMD').hide();
-    })
-})
+    });
+});
 
 //jQuery Function Set 3: Carousel
 $(function () {
@@ -100,7 +100,7 @@ $(function () {
     function cycle () {
         $('#' + contOut).fadeOut();
         $('#' + contIn).fadeIn();
-        var cond = contIn
+        var cond = contIn;
         if (cond =='iSCont'){
             contOut = 'iSCont';
             contIn = 'sSCont';
@@ -114,7 +114,7 @@ $(function () {
     }
 
     setInterval(cycle, 5000);
-})
+});
 
 
 
@@ -122,4 +122,4 @@ $(function () {
 $(function () {
     $('.nojs').hide();
     $('.jsonly').show();
-})
+});

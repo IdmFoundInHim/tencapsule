@@ -7,9 +7,11 @@
 	font-size: 16px;
 }
 
-body{
+body, html{
 	background:#FFF9E9;
 	margin: 0;
+	padding: 0;
+	border: 0;
 }
 
 
@@ -62,11 +64,6 @@ h3{
 	text-align:center;
     display: block;
     position:static;
-    font-size:1.6rem;
-	line-height: 1.667rem;
-}
-
-h3{
 	clear:both;
 	font-size:1.5625rem;
 	/*position:relative;*/
@@ -184,6 +181,7 @@ h2{
 
 #sSeriesButton{
 	width: 40%;
+	width: calc(41% - 8px);
 }
 
 #logo{
@@ -264,16 +262,16 @@ h2{
 
 #iSCont{
 	position: absolute;
-	width: 99%;
+	width: 100%;
 }
 #sSCont{
 	position: absolute;
-	width: 99%;
+	width: 100%;
 	display: none;
 }
 #pSCont{
 	position: absolute;
-	width: 99%;	
+	width: 100%;	
 	display:none;
 }
 
@@ -285,6 +283,8 @@ h2{
 	opacity: 0.9;
 	background: #FFC4C4;
 	width: 60%;
+	padding: 1em;
+	margin: 0
 }
 
 .txtContain *{
@@ -351,11 +351,16 @@ h2{
 	display: none;
 }
 .NavButton{
-	border-radius: 1.5625em;
 	vertical-align: top;
 }
-.NavButton h3{
-	margin: 1.2rem;
+#links{
+	margin: 0;
+}
+#links>div{
+	width: 100%;
+	float: none;
+	padding: 1em 0;
+	margin: 1em 0;
 }
 }
 
@@ -363,9 +368,11 @@ h2{
 	.NavButton h3{
 		font-size: 1.2rem;
 		line-height: 1.2rem;
+		margin: 1.2rem;
 	}
 	.NavButton{
 		width: 24.75%;
+		height: 4.8rem;
 	}
 	#sMobileButton{
 		width: 49.5%;
@@ -386,7 +393,7 @@ h2{
 @media only screen and (max-width: 599px){
 	.NavButton h3{
 		font-size: 1.5rem;
-		margin: 11px 0 11px 0;
+		padding: 1rem 0;
 	}
 	.NavButton{
 		margin: auto .25rem .25rem .25rem;

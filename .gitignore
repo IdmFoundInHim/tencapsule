@@ -1,8 +1,9 @@
 .vscode/
-.exlintrc.json
+.eslintrc.js*
 */.vscode/
 */.eslintrc.json
 *.tmp
+
 
 ################################################################################
 ### OCTOCAT ###
