@@ -9,23 +9,142 @@
     <script src='home.js'></script>
     <link rel='shortcut icon' href='favicon.png'/>
     <meta charset='utf-8' />
-    <meta name='viewport' content='width=device-width, initial-scale=1'>       
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <style>
+      .NavButton, .iDropButton{
+        height:auto;
+        border-right:1px solid #000000;
+        border-left:1px solid #000000;
+        background:#e8d9c5;
+        /*border-radius:1rem;*/
+        display:inline-block;
+        clear:both;
+        margin:0;
+        text-align:center;
+        position: relative;
+        
+      }
+
+
+      #iSeriesButton, #pSeriesButton, #sSeriesButton{
+        bottom: 60px;
+        margin: auto auto -55px;
+        height: auto;
+      }
+      #iSeriesButton{
+        width: 25%;
+      }
+
+      #pSeriesButton{
+        width: 15%;
+      }
+
+      #sSeriesButton{
+        width: 40%;
+        width: calc(41% - 8px);
+      }
+
+      @media only screen and (min-width: 2700px){
+        .NavButton h3, .iDropButton h3{
+          font-size: 2.8rem;	
+          height: 2.8rem;
+          margin: 2.8rem 0;
+          line-height: 2.8rem;
+        }
+      }
+
+      @media only screen and (min-width: 1851px) and (max-width: 2699px){
+        .NavButton h3, .iDropButton h3{
+          font-size: 2rem;	
+          height: 2rem;
+          margin: 5.05rem 0;
+          line-height: 2rem;
+        }
+      }
+
+      @media only screen and (min-width: 880px) and (max-width: 1850px){
+        .NavButton h3, .iDropButton h3{
+          font-size: 1.6rem;	
+          height: 1.6rem;
+          margin: 1.6rem 0;
+          line-height: 1.6rem;
+        }
+      }
+      @media only screen and (min-width: 880px) and (max-width:1358px){
+        .NavButton h3, .iDropButton h3{
+          font-size: 1.2rem;
+          height:1.2rem;
+          margin: 1.2rem 0; 
+          line-height: 1.2rem;
+        }
+      }
+      .NavButton{
+        vertical-align: top;
+      }
+
+    @media only screen and (min-width: 600px) and (max-width:879px){
+      .NavButton h3{
+        font-size: 1.2rem;
+        line-height: 1.2rem;
+        margin: 1.2rem;
+      }
+      .NavButton{
+        width: 24.75%;
+        height: 4.8rem;
+      }
+      #sMobileButton{
+        width: 49.5%;
+      }
+      .showMD .NavButton{
+        width: 49.5%;
+        display: inline-block;
+      }
+      #logoM img{
+        margin: auto auto 1rem auto;
+        display: block;
+        width: auto;
+        /*max-width: 350px;*/
+        height: 140px;
+      }
+    }
+      
+    @media only screen and (max-width: 599px){
+      .NavButton h3{
+        font-size: 1.5rem;
+        padding: 1rem 0;
+      }
+      .NavButton{
+        margin: auto .25rem .25rem .25rem;
+        display: block;
+        margin-bottom: .25rem;
+      }
+      #sMobileButton h3{
+        font-size: 1rem;
+      }
+      #logoM img{
+        height: 115px;
+        margin: auto auto .5rem;
+        display: block;
+      }
+    }
+
+    .iDropButton{
+      width: 49.7%;
+      display:inline-block;
+    }
+
+
+    </style>
   </head>
   <body>
-    <div id='titlebar'>
-      <div id='iSeriesButton' class='NavButton'>
-        <h3>Intro to The Bible</h3>
-      </div><!--
-      --><a href='capsule3/default.html'><div id='pSeriesButton' class='NavButton'>
-        <h3>Capsule 3</h3>
-      </div></a><!--
-      --><a href='/'><div id='logo' class='NavButton'>
-        <img src='images/Logo.1.2.png' alt='Go to Homepage'/>
-      </div></a><!--
-      --><a href='gospel/default.html'><div id='sSeriesButton' class='NavButton'>
-        <h3>Road to Salvation Capsule</h3>
-      </div></a>
-    </div>
+    <nav id='header'>
+      <a href='/'><img src='images/Logo.1.2.png' alt='Go to Homepage' style='border: 0;' class='logo'/></a>
+      <nav id='headmenu'>
+        <a>Intro to<br/>The Bible</a>
+        <a href='capsule3/default.html'>Capsule 3</a>
+        <a href='gospel/default.html'>The Gospel</a>
+      </nav>
+    </nav>
     <div id='iSeriesDropdown'>
       <a href='capsule1/default.html'><div class='iDropButton'><h3>Capsule 1</h3></div></a><!--
       --><a href='capsule2/default.html'><div class='iDropButton'><h3>Capsule 2</h3></div></a>
