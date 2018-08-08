@@ -465,4 +465,52 @@ h2{
         max-height: 4.4rem
     }
 }
+
+@media only screen and (min-width: 0px) and (max-width: 642px){
+    #header{
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    #header>a:first-child{
+        display: inline-flex;
+    }
+    #headmenu:hover a{
+        display: block;
+    }
+
+    #headmenu{
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        width: auto;
+        height: 40%;
+        font-size: 2rem;
+    }
+
+    #headmenu br{
+        display: none;
+        content: ' '
+    }
+    
+    #headmenu a{
+        display: none;
+        text-align: center;
+        font-size: 1.5rem;
+    }
+    
+    .logo{
+        width: 60%;
+        height: auto;
+        max-height: 170px;
+        max-width: 388.583px;
+        margin: auto;
+    }    
+}
+
+@media only screen and (max-width: 300px){
+    #headmenu a:first-child{
+        font-size: 1.2rem
+    }
+}
 #titlemobile{display:none;}
