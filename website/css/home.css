@@ -8,6 +8,7 @@
 }
 
 body, html{
+    background: #FFFDF7;
     background: #FFF9E9;
     margin: 0;
     padding: 0;
@@ -382,7 +383,7 @@ h2{
     flex-direction: row;
 }
 
-#headmenu{
+.headmenu{
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -390,7 +391,7 @@ h2{
     width: 75%;
 }
 
-#headmenu a{
+.headmenu a{
     display: flex;
     text-align: center;
     font-size: 2.8rem;
@@ -407,11 +408,11 @@ h2{
 }
 
 @media only screen and (min-width: 1550px){
-    #headmenu{
+    #primary{
         width: calc( 100% - 11.4rem );
     }
     
-    #headmenu a{
+    #primary a{
             font-size: 2.8rem;	
             line-height: 2.8rem;
     }
@@ -422,11 +423,11 @@ h2{
 }
 
 @media only screen and (min-width: 1359px) and (max-width: 1549px){
-    #headmenu{
+    #primary{
         width: calc( 100% - 8rem );
     }
     
-    #headmenu a{
+    #primary a{
             font-size: 2rem;	
             line-height: 2rem;
     }
@@ -437,11 +438,11 @@ h2{
 }
 
 @media only screen and (min-width: 847px) and (max-width: 1359px){
-    #headmenu{
+    #primary{
         width: calc( 100% - 6.4rem );
     }
     
-    #headmenu a{
+    #primary a{
         font-size: 1.6rem;	
         line-height: 1.6rem;
     }
@@ -452,11 +453,11 @@ h2{
 }
 
 @media only screen and (min-width: 642px) and (max-width:846px){
-    #headmenu{
+    #primary{
         width: calc( 100% - 4.4rem );
     }
     
-    #headmenu a{
+    #primary a{
         font-size: 1.1rem;
         line-height: 1.1rem;
     }
@@ -466,20 +467,37 @@ h2{
     }
 }
 
+@media only screen and (min-width:643px){#primary{font-size: 0}}
+
 @media only screen and (min-width: 0px) and (max-width: 642px){
     #header{
         justify-content: center;
         align-items: center;
         flex-direction: column;
+        position:fixed;
+        top: 0;
+        bottom: auto;
+        width: 100%;
+        z-index: 10;
+        background: #FFF9E9;
+    }
+    #carosuel{
+        z-index: 5;
     }
     #header>a:first-child{
-        display: inline-flex;
-    }
-    #headmenu:hover a{
+        width: auto;
         display: block;
     }
+    #slogan{
+        margin: 158px 0 0 0;
+    }
+    #primary:hover a{
+        display: block;
+        width: auto;
+        background: #FFF9E9;
+    }
 
-    #headmenu{
+    .headmenu{
         flex-direction: column;
         align-items: center;
         justify-content: space-around;
@@ -488,12 +506,12 @@ h2{
         font-size: 2rem;
     }
 
-    #headmenu br{
+    .headmenu br{
         display: none;
         content: ' '
     }
     
-    #headmenu a{
+    .headmenu a{
         display: none;
         text-align: center;
         font-size: 1.5rem;
@@ -505,11 +523,17 @@ h2{
         max-height: 170px;
         max-width: 388.583px;
         margin: auto;
-    }    
+        padding: 0;
+        display: block;
+    }
+
+    #secondaryI:target a{
+        display:block;
+    }
 }
 
 @media only screen and (max-width: 300px){
-    #headmenu a:first-child{
+    #primary a:first-child{
         font-size: 1.2rem
     }
 }
