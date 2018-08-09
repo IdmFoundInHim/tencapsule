@@ -136,11 +136,17 @@
 
     </style>
   </head>
-  <body>
+  <body class='nojs'>
     <nav id='header'>
       <a href='/'><img src='images/Logo.1.2.png' alt='Go to Homepage' style='border: 0;' class='logo'/></a>
-      <nav id='headmenu'>☰
-        <a>Intro to <br/>the Bible</a>
+      <span id='primary-show' class='showifjs mobileonly'>☰</span>
+      <nav id='primary' class='headmenu'>
+        <span class='hideifjs'>☰</span>
+        <a href='iSeries.html' id='Ilink'>Intro to <br/>the Bible&nbsp;▼</a>
+        <nav id='secondaryI' class='headmenu secondary'>
+          <a href='capsule1/default.html'>Capsule 1</a>
+          <a href='capsule2/default.html'>Capsule 2</a>
+        </nav>
         <a href='capsule3/default.html'>Capsule 3</a>
         <a href='gospel/default.html'>The Gospel</a>
       </nav>
@@ -193,8 +199,8 @@
     </div>      
     <div id='query'>
       <div id='phase1'>
-        <p class='jsonly'>If you aren't sure where to start, click here</p>
-        <p class='nojs'>Enable JavaScript to get recommendations</p>
+        <p class='showifjs'>If you aren't sure where to start, click here</p>
+        <p class='hideifjs'>Enable JavaScript to get recommendations</p>
       </div>
     </div> 
     <div id='rec_storage' style='display:none;'>NONE</div> <!--Stores quiz results for jQuery retrieval-->

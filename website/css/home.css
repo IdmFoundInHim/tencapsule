@@ -14,7 +14,17 @@ body, html{
     padding: 0;
     border: 0;
 }
-
+.showifjs{
+    display: none;
+}
+.hideifjs{
+    display: initial;
+}
+@media only screen and (min-width: 643px){
+    .mobileonly {
+        display: none !important;
+    }
+}
 
 /*Link Settings*/
 a:link{
@@ -467,9 +477,34 @@ h2{
     }
 }
 
-@media only screen and (min-width:643px){#primary{font-size: 0}}
+@media only screen and (min-width:643px){
+    .secondary{
+        display: none;
+    }
+
+    #secondary{
+        position: relative;
+        box-shadow: 3;
+    }
+
+}
 
 @media only screen and (min-width: 0px) and (max-width: 642px){
+    .nojs #primary:hover a{
+        display: block;
+        width: auto;
+        background: #FFF9E9;
+    }
+    .nojs .headmenu span{
+        font-size: 2rem;
+    }
+    .nojs #primary a{
+        display: none;
+    }
+    .nojs #primary{
+        display: flex;
+    }
+    
     #header{
         justify-content: center;
         align-items: center;
@@ -484,17 +519,22 @@ h2{
     #carosuel{
         z-index: 5;
     }
-    #header>a:first-child{
+    #primary>a:first-child{
         width: auto;
         display: block;
     }
     #slogan{
         margin: 158px 0 0 0;
     }
-    #primary:hover a{
-        display: block;
-        width: auto;
-        background: #FFF9E9;
+    #primary{
+        display: none;
+    }
+    #primary-show{
+        font-size: 2rem;
+    }
+    .secondary{
+        display: none;
+        background: #ffffff;
     }
 
     .headmenu{
@@ -503,7 +543,6 @@ h2{
         justify-content: space-around;
         width: auto;
         height: 40%;
-        font-size: 2rem;
     }
 
     .headmenu br{
@@ -512,11 +551,16 @@ h2{
     }
     
     .headmenu a{
-        display: none;
         text-align: center;
         font-size: 1.5rem;
+        display: block;
+        padding: 0;
     }
     
+    .secondary a{
+        padding: 0 25px
+    }
+
     .logo{
         width: 60%;
         height: auto;
@@ -526,13 +570,9 @@ h2{
         padding: 0;
         display: block;
     }
-
-    #secondaryI:target a{
-        display:block;
-    }
 }
 
-@media only screen and (max-width: 300px){
+@media only screen and (max-width: 275px){
     #primary a:first-child{
         font-size: 1.2rem
     }

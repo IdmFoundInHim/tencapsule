@@ -1,3 +1,18 @@
+// jQuery CSS Initializer
+$(function () {
+    $('body').removeClass('nojs');
+    $('.hideifjs').hide();
+    $('.showifjs').show();
+});
+
+// Convenience Functions
+function flexshow(selector) {
+    if ($(selector).is(':visible')) {
+        $(selector).css('display', 'flex');
+    }
+}
+
+
 //jQuery Function Set 1: Website Guidance
 
 $(function () {
@@ -57,16 +72,6 @@ $(function () {
     /*$('#slogan, #intro, #query, #links, #disclaim').click( function () {
         $('#iSeriesDropdown').hide();
     })*/
-    $(document).click(function(event) { 
-        if(!$(event.target).closest('#titlebar').length) {
-            if($('#titlebar').is(':visible')) {
-                $('#iSeriesDropdown').hide();
-            }
-        }        
-    });
-    $('#iSeriesButton').click(function () {
-        $('#iSeriesDropdown').show();
-    });
     /*Needs Revised
     $(document).width.change(function () {
         $('#iSeriesDropdown').hide();
@@ -92,6 +97,39 @@ $(function () {
     });
 });
 
+// New NavBar
+
+$(function () {
+    $(document).click(function(event) { 
+        if(!$(event.target).closest('#header').length) {
+            if($('#primary').is(':visible')) {
+                $('#primary').slideUp('fast');
+                $('.secondary').slideUp('fast');
+            }
+        }        
+    });
+    $('#Ilink').click(function() {
+        $('#secondaryI').slideToggle('fast');
+        flexshow('#secondaryI');
+        return false;
+    });
+    $('#primary-show').click(function() {
+        $('#primary').slideToggle('fast');
+        flexshow('#primary');
+        if ($('#primary').is(':visible')) {
+            $('.secondary').slideUp('fast');
+        }
+    });
+    $( window ).resize(function() {
+        if ($(window).width() > 642){
+            $('#primary').show();
+            flexshow('#primary');
+        }
+        else{
+            $('#primary').hide();
+        }
+    });
+});
 //jQuery Function Set 3: Carousel
 $(function () {
     var contOut = 'iSCont';
@@ -114,12 +152,4 @@ $(function () {
     }
 
     setInterval(cycle, 5000);
-});
-
-
-
-//jQuery function Set 4: Non-js Elements
-$(function () {
-    $('.nojs').hide();
-    $('.jsonly').show();
 });
