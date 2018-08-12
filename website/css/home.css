@@ -24,6 +24,9 @@ body, html{
     .mobileonly {
         display: none !important;
     }
+    .logo{
+        max-width: 25%;
+    }
 }
 
 /*Link Settings*/
@@ -114,7 +117,7 @@ h3{
 
 #disclaim p{
     font-family:'Courier New', Courier, monospace;
-    color:black;
+    color:#000000;
     font-size:0.7rem;
 }
 
@@ -122,13 +125,17 @@ h3{
 /*Page Top Settings*/
 /*Development Section*/
 
+#slogan{
+    margin: 12% 0 0 0;
+}
+
 #links{
     margin: 0 10%;
 }
 
 #introSeries{
     background: #FDB57A;	
-    color:black;
+    color:#000000;
     width: 49%;
     height: auto;
     display: block;
@@ -138,7 +145,7 @@ h3{
 
 #specialSeries{
     background: #FDB57A;	
-    color:black;	
+    color:#000000;	
     width: 49%;
     height: auto;
     display: block;
@@ -148,7 +155,7 @@ h3{
 
 #planSeries{
     background: #FDB57A;
-    color:black;
+    color:#000000;
     clear: both;
     top: 10px;
     position: relative;
@@ -206,7 +213,7 @@ h2{
     background-size: 100%;
     background-position: center center;
     height: 300px;
-    color: white;
+    color: #ffffff;
 }
 
 /* The following rules enable when the image can no longer scale down properly
@@ -252,7 +259,7 @@ automatically. */
 }
 
 .txtContain *{
-    color: black;
+    color: #000000;
     opacity: 1;
     font-weight: bold;
 }
@@ -391,6 +398,18 @@ h2{
     justify-content: flex-start;
     align-items: center;
     flex-direction: row;
+    position: fixed;
+    top: 0;
+    bottom: auto;
+    z-index: 10;
+    width: 100%;
+    background: #FFFDF7;
+    background: #FFF9E9;
+    box-shadow: 0 5px 15px #000000;
+}
+
+#primary{
+    position: relative;
 }
 
 .headmenu{
@@ -480,6 +499,15 @@ h2{
 @media only screen and (min-width:643px){
     .secondary{
         display: none;
+        flex-direction: column;
+        position: absolute;
+        width: 33%;
+        top: 125%;
+        left: 1%;
+        background: #FFFDF7;
+        background: #FFF9E9;
+        height: 200%;
+        box-shadow: 15px 20px 20px -10px #000000;
     }
 
     #secondary{
@@ -488,6 +516,7 @@ h2{
     }
 
 }
+
 
 @media only screen and (min-width: 0px) and (max-width: 642px){
     .nojs #primary:hover a{
@@ -578,3 +607,9 @@ h2{
     }
 }
 #titlemobile{display:none;}
+
+@media only screen and (min-width: 3000px){
+    #slogan{
+        margin: 300px 0 0 0;
+    }
+}
