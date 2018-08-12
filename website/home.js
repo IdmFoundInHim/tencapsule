@@ -101,7 +101,8 @@ $(function () {
 
 $(function () {
     $(document).click(function(event) { 
-        if(!$(event.target).closest('#header').length) {
+        if(!$(event.target).closest('#header').length &&
+           $(window).width() < 600) {
             if($('#primary').is(':visible')) {
                 $('#primary').slideUp('fast');
                 $('.secondary').slideUp('fast');
