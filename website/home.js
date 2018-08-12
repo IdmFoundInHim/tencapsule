@@ -52,47 +52,7 @@ $(function () {
     });
 });
 
-//jQuery Function Set 2: NavBar
-$(function () {
-    /*$('#slogan, #intro, #query, #links, #disclaim').click( function () {
-        $('#iSeriesDropdown').hide();
-    })*/
-    $(document).click(function(event) { 
-        if(!$(event.target).closest('#titlebar').length) {
-            if($('#titlebar').is(':visible')) {
-                $('#iSeriesDropdown').hide();
-            }
-        }        
-    });
-    $('#iSeriesButton').click(function () {
-        $('#iSeriesDropdown').show();
-    });
-    /*Needs Revised
-    $(document).width.change(function () {
-        $('#iSeriesDropdown').hide();
-        if($('#titlemobile').is(":visible")) {
-            $('.showMD').hide();
-            $('.hideMD').show();
-        }
-    })*/
-});
-
-$(function () {
-    $(document).click(function(event) { 
-        if(!$(event.target).closest('#titlemobile').length) {
-            if($('#titlemobile').is(':visible')) {
-                $('.showMD').hide();
-                $('.hideMD').show();
-            }
-        }        
-    });
-    $('#iMobileButton').click(function () {
-        $('.showMD').show();
-        $('.hideMD').hide();
-    });
-});
-
-//jQuery Function Set 3: Carousel
+//jQuery Function Set 2: Carousel
 $(function () {
     var contOut = 'iSCont';
     var contIn = 'sSCont';
@@ -114,12 +74,4 @@ $(function () {
     }
 
     setInterval(cycle, 5000);
-});
-
-
-
-//jQuery function Set 4: Non-js Elements
-$(function () {
-    $('.nojs').hide();
-    $('.jsonly').show();
 });

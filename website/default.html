@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <!-- The Ten Capsule (C) 2018
   Created as a division of Surprise Ministries by Isaac M.-->
 <html lang="en-US">
@@ -6,46 +6,25 @@
     <title>The Ten Capsule</title> 
     <link rel='stylesheet' href='css/home.css' />
     <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.3.1.min.js"></script>
-    <script src='home.js'></script>
     <link rel='shortcut icon' href='favicon.png'/>
     <meta charset='utf-8' />
-    <meta name='viewport' content='width=device-width, initial-scale=1'>       
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
   </head>
-  <body>
-    <div id='titlebar'>
-      <div id='iSeriesButton' class='NavButton'>
-        <h3>Intro to The Bible</h3>
-      </div><!--
-      --><a href='capsule3/default.html'><div id='pSeriesButton' class='NavButton'>
-        <h3>Capsule 3</h3>
-      </div></a><!--
-      --><a href='/'><div id='logo' class='NavButton'>
-        <img src='images/Logo.1.2.png' alt='Go to Homepage'/>
-      </div></a><!--
-      --><a href='gospel/default.html'><div id='sSeriesButton' class='NavButton'>
-        <h3>Road to Salvation Capsule</h3>
-      </div></a>
-    </div>
-    <div id='iSeriesDropdown'>
-      <a href='capsule1/default.html'><div class='iDropButton'><h3>Capsule 1</h3></div></a><!--
-      --><a href='capsule2/default.html'><div class='iDropButton'><h3>Capsule 2</h3></div></a>
-    </div>
-    <div id='titlemobile'>
-      <div id='logoM'><a href='/'>
-        <img src='images/Logo.1.2.png' alt='Go to Homepage'/>
-      </a></div>
-      <div id='iMobileButton' class='NavButton hideMD'>
-      <h3 class='hideMD'>Intro to The Bible</h3>
-      </div><!--
-      --><a href='capsule3/default.html' class='hideMD'><div id='pMobileButton' class='NavButton' >
-        <h3>Capsule 3</h3>
-      </div></a><!--
-      --><a href='gospel/default.html' class='hideMD'><div id='sMobileButton' class='NavButton'>
-        <h3>Road to Salvation Capsule</h3>
-      </div></a>
-      <a href='capsule1/default.html' class='showMD'><div class='NavButton' ><h3>Capsule 1</h3></div></a><!--
-      --><a href='capsule2/default.html' class='showMD'><div class='NavButton showMD'><h3>Capsule 2</h3></div></a>
-    </div>
+  <body class='nojs'>
+    <header id='header'>
+      <a href='/'><img src='images/Logo.1.2.png' alt='Go to Homepage' style='border: 0;' class='logo'/></a>
+      <span id='primary-show' class='showifjs mobileonly'>☰</span>
+      <nav id='primary' class='headmenu'>
+        <span class='hideifjs'>☰</span>
+        <a href='iSeries.html' id='Ilink'>Intro to <br/>the Bible&nbsp;▼</a>
+        <nav id='secondaryI' class='headmenu secondary'>
+          <a href='capsule1/default.html'>Capsule 1</a>
+          <a href='capsule2/default.html'>Capsule 2</a>
+        </nav>
+        <a href='capsule3/default.html'>Capsule 3</a>
+        <a href='gospel/default.html'>The Gospel</a>
+      </nav>
+    </header>
     <div id='slogan'><h1 class='attention'>You are one step away from a new life</h1></div>
     <div id='carousel'>
       <div id='iSCont'><a href='capsule1/default.html'><div id='iSPic'>
@@ -74,8 +53,8 @@
     </div>      
     <div id='query'>
       <div id='phase1'>
-        <p class='jsonly'>If you aren't sure where to start, click here</p>
-        <p class='nojs'>Enable JavaScript to get recommendations</p>
+        <p class='showifjs'>If you aren't sure where to start, click here</p>
+        <p class='hideifjs'>Enable JavaScript to get recommendations</p>
       </div>
     </div> 
     <div id='rec_storage' style='display:none;'>NONE</div> <!--Stores quiz results for jQuery retrieval-->
@@ -175,6 +154,9 @@
     <div id='disclaim'>
       <p>Another disclaimer:  This domain contains many external links.  I cannot make any guarantees on the content of other domains.  I also do not claim any official endorsements on these websites.</p>
     </div>
-    <p style='font-size: 8px'><a href='EdRecord.txt'>I-2.int03 (Internal Release - Updated Homepage Revised)</a></p>   
+    <p style='font-size: 8px'><a href='EdRecord.txt'>I-2.int03 (Internal Release - Updated Homepage Revised)</a></p>
+    <script src='denoscript.js'></script>
+    <script src='navbar.js'></script>
+    <script src='home.js'></script>
   </body>
 </html>
