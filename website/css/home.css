@@ -67,6 +67,10 @@ a{
 
 
 /*Text Settings*/
+@font-face {
+    font-family: Bahnschrift;
+    src: url(bahnschrift.ttf) format("truetype");
+}
     /*Headings*/
 h1{
     text-align:center;
@@ -86,7 +90,7 @@ h3{
 }
     /*Font Styles*/
 .attention{
-    font-family:'Lucida Bright', serif;
+    font-family: Bahnschrift, 'Lucida Bright', serif;
     color:#9c0000;
     margin: 20px;
     text-align:center;

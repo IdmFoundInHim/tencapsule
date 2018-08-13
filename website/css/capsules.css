@@ -56,7 +56,7 @@ a{
     height:4.7rem;
     width:7.7rem;
     border:1px solid #000000;
-    background:#e8d9c5;
+    /*background:#fffff;*/
     border-radius:1.5625rem;
     display:block;
     clear:both;
@@ -76,19 +76,24 @@ a{
 }
 
 /* Text Settings */
+@font-face {
+    font-family: Bahnschrift;
+    src: url(bahnschrift.ttf) format("truetype");
+}
+
 h1{
-    font-family:'Lucida Bright', serif;
+    font-family: Bahnschrift, 'Lucida Bright', serif;
+    font-weight: 300;
     color:#9c0000;
-    font-style:italic;
     font-size:3rem;
     text-align:center;
-    text-decoration:underline;
     margin: calc(15% + 1.5rem) 0 1.5rem 0;
     line-height: 3rem;
 }
 
 h2{
-    font-family:'Lucida Bright', serif;
+    font-family:Bahnschrift, 'Lucida Bright', serif;
+    font-weight: 300;
     color:#9c0000;
     font-size:2rem;
     text-align:center;
@@ -204,124 +209,6 @@ hr {
     background:#000000;
     border-color: #000000;
     color: #000000;
-}
-
-
-
-
-/*NavBar (See Exp. 1)*/
-.NavButton{
-    display: inline-block;
-    height:auto;
-    border:1px solid #000000;
-    background:#e8d9c5;
-    border-radius:1.5625em;
-    text-align:center;
-    vertical-align: top;
-}
-.LargeNavButton{
-    display: inline-block;	
-    height:auto;
-    border:1px solid #000000;
-    background:#e8d9c5;
-    border-radius:1.5rem;
-    text-align:center;
-    vertical-align: top;
-
-}
-@media only screen and (min-width:1851px){
-.NavButton h3, .LargeNavButton h3{
-    font-size: 1.7rem;
-}
-
-.NavButton{
-    width: 290px;
-}
-.LargeNavButton{
-    width: 580px;
-}
-#logo{
-    width: 322px;
-    display: inline-block;
-}
-
-#logo img{
-    width: 100%
-}
-}
-@media only screen and (min-width: 880px) and (max-width:1850px){
-.NavButton h3, .LargeNavButton h3{
-    font-size: 1.4rem;
-}
-.NavButton{
-    width: 16%;
-}
-.LargeNavButton{
-    width: 32%;
-}
-#logo img{
-    width: 100%;
-}
-#logo {
-    display: inline-block;
-    width: 30%;
-    max-width: 300px;
-    height: auto /*110.5px*/;
-}
-@media only screen and (max-width:1040px){
-    .NavButton, .LargeNavButton{
-        height: 88.4px;
-    }
-    .NavButton h3{
-        margin: 30.2px auto;
-    }
-    .LargeNavButton h3{
-        margin: 16.2px auto;
-    }
-}
-}
-
-@media only screen and (min-width: 600px) and (max-width:879px){
-.NavButton h3, .LargeNavButton h3{
-    font-size: 1.2rem;
-}
-.NavButton{
-    width: 24%;
-}
-.LargeNavButton{
-    width: 48%;
-}
-#logo img{
-    margin: auto auto 1rem auto;
-    display: block;
-    width: auto;
-    /*max-width: 350px;*/
-    height: 140px;
-}
-}
-
-@media only screen and (max-width: 599px){
-.NavButton h3{
-    font-size: 1.5rem;
-    margin: 11px 0 11px 0;
-}
-#logo img, .NavButton, .LargeNavButton{
-    margin: auto;
-    display: block;
-    margin-bottom: .25rem;
-}
-#logo img{
-    width: auto;
-    height: 115px;
-    margin-bottom: .5rem;
-}
-}
-
-@media only screen and (max-width: 320px){
-    #logo img{
-        width: auto;
-        height: 100px;
-    }
 }
 
 #header{
