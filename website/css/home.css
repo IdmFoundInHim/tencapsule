@@ -187,11 +187,17 @@ h2{
     border: 1px solid;
     background: #f9b031;
 }
-#query-box > div div:not(.button) > * > a:visited{
+#query-box a:visited{
     color: #ffe2b5;
 }
-#query-box > div div:not(.button) a:link{
+#query-box a:link{
     color: #ff8585;
+}
+#query-box a:link .button {
+    color: #2a003e;
+}
+#query-box a:visited .button {
+    color: #9c1900;
 }
 
 #iSeriesDropdown{

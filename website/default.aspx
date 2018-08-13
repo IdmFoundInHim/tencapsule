@@ -86,27 +86,27 @@
       </div>
       <div id='c1rec' class='result'>
         <p>I recommend starting at Capsule 1</p>
-        <div id='c1recbutton' class='button'>
-          <h3><a href='capsule1/default.html'>Capsule 1</a></h3>
-        </div>
+        <a href='capsule1/default.html'><div id='c1recbutton' class='button'>
+          <h3>Capsule 1</h3>
+        </div></a>
       </div>
       <div id='c2rec' class='result'>
         <p>I recommend starting at Capsule 2</p>
-        <div id='c2recbutton' class='button'>
-          <h3><a href='capsule2/default.html'>Capsule 2</a></h3>
-        </div>
+        <a href='capsule2/default.html'><div id='c2recbutton' class='button'>
+          <h3>Capsule 2</h3>
+        </div></a>
       </div>
       <div id='c3rec' class='result'>
         <p>I recommend starting at Capsule 3</p>
-        <div id='c3recbutton' class='button'>
-          <h3><a href='capsule3/default.html'>Capsule 3</a></h3>
-        </div>
+        <a href='capsule3/default.html'><div id='c3recbutton' class='button'>
+          <h3>Capsule 3</h3>
+        </div></a>
       </div>
       <div id='rtsrec' class='result'>
         <p>I recommend reading about the Gospel</p>
-        <div id='rtsrecbutton' class='button'>
-          <h3><a href='gospel/default.html'>The Gospel</a></h3>
-        </div>
+        <a href='gospel/default.html'><div id='rtsrecbutton' class='button'>
+          <h3>The Gospel</h3>
+        </div></a>
       </div>
       <div id='close-button' class='button interrupt'>
         X Close
