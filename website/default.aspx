@@ -108,8 +108,11 @@
           <h3><a href='gospel/default.html'>The Gospel</a></h3>
         </div>
       </div>
-      <div id='close-button' class='button'>
+      <div id='close-button' class='button interrupt'>
         X Close
+      </div>
+      <div id='reset-button' class='button interrupt'>
+        ↺ Reset
       </div>
     </div>  
     <div id='links'>

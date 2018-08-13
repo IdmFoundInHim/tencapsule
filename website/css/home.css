@@ -187,7 +187,12 @@ h2{
     border: 1px solid;
     background: #f9b031;
 }
-
+#query-box > div div:not(.button) > * > a:visited{
+    color: #ffe2b5;
+}
+#query-box > div div:not(.button) a:link{
+    color: #ff8585;
+}
 
 #iSeriesDropdown{
     display: none;
@@ -384,7 +389,7 @@ h2{
     }
 
 }
-#close-button{
+.interrupt{
     height: 20px;
     background: #333333;
     color: #ffffff;
