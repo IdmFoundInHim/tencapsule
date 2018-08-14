@@ -18,28 +18,28 @@
         <span class='hideifjs'>☰</span>
         <a href='iSeries.html' id='Ilink'>Intro to <br/>the Bible&nbsp;▼</a>
         <nav id='secondaryI' class='headmenu secondary'>
-          <a href='capsule1/default.html'>Capsule 1</a>
-          <a href='capsule2/default.html'>Capsule 2</a>
+          <a href='capsule1/'>Capsule 1</a>
+          <a href='capsule2/'>Capsule 2</a>
         </nav>
-        <a href='capsule3/default.html'>Capsule 3</a>
-        <a href='gospel/default.html'>The Gospel</a>
+        <a href='capsule3/'>Capsule 3</a>
+        <a href='gospel/'>The Gospel</a>
       </nav>
     </header>
     <div id='slogan'><h1 class='attention'>You are one step away from a new life</h1></div>
     <div id='carousel'>
-      <div id='iSCont'><a href='capsule1/default.html'><div id='iSPic'>
+      <div id='iSCont'><a href='capsule1/'><div id='iSPic'>
         <div class='txtContain'>
           <h2 style='text-align: left;'>New to the Bible?</h2>
           <p>We can help.  Start our Intro to the Bible series today.</p>
         </div>
       </div></a></div>
-      <div id='sSCont'><a href='gospel/default.html'><div id='sSPic'>
+      <div id='sSCont'><a href='gospel/'><div id='sSPic'>
         <div class='txtContain'>
           <h2 style='text-align: left;'>Are you going to heaven?</h2>
           <p>If you are not sure, check out the Capsule view of the Gospel.</p>
         </div>
       </div></a></div>
-      <div id='pSCont'><a href='capsule3/default.html'><div id='pSPic'>
+      <div id='pSCont'><a href='capsule3/'><div id='pSPic'>
         <div class='txtContain'>
           <h2 style='text-align: left;'>Want to know God better?</h2>
           <p>Reading the Bible is a great way to start.  Discover His Word with the God's Plan series.</p>
@@ -61,7 +61,7 @@
     <div id='curtain'></div>
     <div id='query-box'>  
       <div id='phase2'>
-        <p>Do you believe Jesus has saved you from the punishment for your sins?  If you are not sure or want to be sure, <a href='gospel/default.html'>click here</a>.</p>
+        <p>Do you believe Jesus has saved you from the punishment for your sins?  If you are not sure or want to be sure, <a href='gospel/'>click here</a>.</p>
         <div id='p2y'>Yes</div> <!--To #saved-->
         <div class='c1r'>I have no idea what you said</div> <!--To #c1rec-->
         <div id='p2n'>No</div>    <!--To #search-->            
@@ -86,27 +86,27 @@
       </div>
       <div id='c1rec' class='result'>
         <p>I recommend starting at Capsule 1</p>
-        <a href='capsule1/default.html'><div id='c1recbutton' class='button'>
-          <h3>Capsule 1</h3>
-        </div></a>
+        <a href='capsule1/' id='c1recbutton' class='button'>
+          Capsule 1
+        </a>
       </div>
       <div id='c2rec' class='result'>
         <p>I recommend starting at Capsule 2</p>
-        <a href='capsule2/default.html'><div id='c2recbutton' class='button'>
-          <h3>Capsule 2</h3>
-        </div></a>
+        <a href='capsule2/' id='c2recbutton' class='button'>
+          Capsule 2
+        </a>
       </div>
       <div id='c3rec' class='result'>
         <p>I recommend starting at Capsule 3</p>
-        <a href='capsule3/default.html'><div id='c3recbutton' class='button'>
-          <h3>Capsule 3</h3>
-        </div></a>
+        <a href='capsule3/' id='c3recbutton' class='button'>
+          Capsule 3
+        </a>
       </div>
       <div id='rtsrec' class='result'>
         <p>I recommend reading about the Gospel</p>
-        <a href='gospel/default.html'><div id='rtsrecbutton' class='button'>
-          <h3>The Gospel</h3>
-        </div></a>
+        <a href='gospel/' id='rtsrecbutton' class='button'>
+          The Gospel
+        </a>
       </div>
       <div id='close-button' class='button interrupt'>
         X Close
@@ -120,44 +120,36 @@
       <div id='introSeries'>
         <h2>Intro to the Bible</h2>
         <p>This is the Intro to the Bible Series.  It goes through the basic plotline of the Bible.</p>
-        <div id='c1button' class='button'>
-          <h3><a href='capsule1/default.html'>Capsule 1</a></h3>
-        </div>
+        <a href='capsule1/' id='c1button' class='button'>
+          Capsule 1
+        </a>
         <p>Capsule 1 is a brief summary of the Bible's main plot using short Scripture passages.</p>
-        <div id='c2button' class='button'>
-          <h3><a href='capsule1/default.html'>Capsule 2</a></h3>
-        </div>
+        <a href='capsule2/' id='c2button' class='button'>
+          Capsule 2
+        </a>
         <p>Capsule 2 is a basic summary of the Bible's highlights.</p>
       </div>
       <div id='specialSeries'>
         <h2>The Good News of Jesus Christ</h2>
         <p>The Bible exists to tell the gospel.  It is the message of God restoring this broken world to perfection and making life into what it was meant to be.   The capsule view of the gospel will explain the lifechanging power of Jesus in ten short passages.</p>
-        <div id='rtsbutton' class='button'>
-          <h3><a href='gospel/default.html'>The Gospel</a></h3>
-        </div>
+        <a href='gospel/' id='rtsbutton' class='button'>
+          The Gospel
+        </a>
       </div>
       <div id='planSeries'>
         <h2>God's Plan</h2>
         <p>The God's Plan Series is made of three capsules.  The first focuses on God's first relationship with man.  The second focuses on the coming of Jesus to redeem the world.  The third focuses on how we can build a relationship with Him through Jesus</p>
-        <div id='c3button' class='button'>
-          <h3><a href='capsule3/default.html'>Capsule 3</a></h3>
-        </div>
+        <a href='capsule1/' id='c3button' class='button'>
+          Capsule 3
+        </a>
         <p>Capsule 3 is an overview of the history of the Israelite nation.  The Israelites are God's chosen people for first revealing the Savior to the world.</p>
-        <!--<div id='c4button' class='button'>
-          <h3><a href='capsule4/default.html'>Capsule 4</a></h3>
-        </div>
-        <p>Capsule 4 is...</p>
-        <div id='c5button' class='button'>
-          <h3><a href='capsule5/default.html'>Capsule 5</a></h3>
-        </div>
-        <p>Capsule 5 is...</p>-->
       </div>
       <h3 class='attention'>The God's Plan series will be completed with capsules 4 and 5 coming soon.</h4>         
     </div>
     <div id='disclaim'>
       <p>Another disclaimer:  This domain contains many external links.  I cannot make any guarantees on the content of other domains.  I also do not claim any official endorsements on these websites.</p>
     </div>
-    <p style='font-size: 1rem; text-align: center;'><a href='http:/github.com/IdmFoundInHim/tencapsule'>Rebound Release (18.08.16) - See it on GitHub!</a></p>
+    <a href='http:/github.com/IdmFoundInHim/tencapsule' id='versionmessage'>Rebound Release (18.08.16) - See it on GitHub!</a>
     <script src='denoscript.js'></script>
     <script src='navbar.js'></script>
     <script src='home.js'></script>

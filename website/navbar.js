@@ -7,10 +7,12 @@ function flexshow(selector) {
 
 $(function () {
     $(document).click(function(event) { 
-        if(!$(event.target).closest('#header').length &&
-           $(window).width() < 600) {
-            if($('#primary').is(':visible')) {
+        if(!$(event.target).closest('#header').length) {
+            if($(window).width() < 600 && $('#primary').is(':visible')) {
                 $('#primary').slideUp('fast');
+                $('.secondary').slideUp('fast');
+            }
+            else if($('.secondary').is(':visible')){
                 $('.secondary').slideUp('fast');
             }
         }        
