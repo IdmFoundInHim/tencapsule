@@ -13,9 +13,9 @@
   <body>
     <header id='header'>
       <a href='../'><img src='../images/Logo.1.2.png' alt='Go to Homepage' style='border: 0;' class='logo'/></a>
-      <span id='primary-show' class='showifjs mobileonly'>☰</span>
+      <span id='primary-show' class='showifjs mobileonly'>&#x2630;</span>
       <nav id='primary' class='headmenu'>
-        <span class='hideifjs'>☰</span>
+        <span class='hideifjs'>&#x2630;</span>
         <a href='../iSeries.html' id='Ilink'>Intro to <br/>the Bible&nbsp;▼</a>
         <nav id='secondaryI' class='headmenu secondary'>
           <a href='../capsule1/'>Capsule 1</a>
