@@ -1,0 +1,10 @@
+<=320{logo: height: 100px;}
+<=765{logo: ''    : 115px;}
+<880{logo:  ''    :140px;}
+<880{mode=tablet;}
+
+mode===laptop{
+	LargeNav: max-width: 250px; 28.4% -- 33.3
+	Nav:      ''       : 130px; 14.7% -- 17.2
+	Logo:     ''       : 240px; 27.2% -- 31.9
+*1.1733
