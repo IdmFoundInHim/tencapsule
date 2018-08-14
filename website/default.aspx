@@ -16,7 +16,7 @@
       <span id='primary-show' class='showifjs mobileonly'>☰</span>
       <nav id='primary' class='headmenu'>
         <span class='hideifjs'>☰</span>
-        <a href='iSeries.html' id='Ilink'>Intro to <br/>the Bible&nbsp;▼</a>
+        <a href='iSeries.html' id='Ilink'>Intro to <br/>the Bible&nbsp;&#x25bc;</a>
         <nav id='secondaryI' class='headmenu secondary'>
           <a href='capsule1/'>Capsule 1</a>
           <a href='capsule2/'>Capsule 2</a>
@@ -112,7 +112,7 @@
         X Close
       </div>
       <div id='reset-button' class='button interrupt'>
-        ↺ Reset
+        &#x21BA; Reset
       </div>
     </div>  
     <div id='links'>
