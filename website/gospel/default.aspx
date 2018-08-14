@@ -134,7 +134,7 @@
        </div> <hr>
   </div>
    <div>
-    <h4><a href='Files/Road to Salvation Capsule.pdf'>Go to Road to Salvation in File Form</a></h4>
+    <h4><a href='Gospel.pdf'>Go to Road to Salvation in File Form</a></h4>
   </div>
   <div class='button'>
     <h4 class='buttontext'>

@@ -11,6 +11,9 @@
     <link rel='shortcut icon' href='../favicon.png'/>
     <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.3.1.min.js"></script>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <style>
+    .further{display:none;}
+    </style>
   </head>
   <body>
     <header id='header'>
@@ -53,7 +56,7 @@
         <p class='descrip'>
           This story lays the foundation for our salvation.  Redemption (being accepted by God after being separated from Him) needs sacrifice and faith to be complete.  God was not planning on letting Abraham kill his son.  God has offered a substitute to sacrifice for our sins as He does in this story.  We should be the sacrifice, just like Isaac, but God provides a different option.  Abraham and Isaac’s faith mirror the greater sacrifice of God and Jesus.  Both fathers send their only son to be sacrificed, both sons willingly go, and God gives a substitute in both instances.  Abraham’s faith has rewards: God blesses Abraham with a promise of countless offspring and considers Abraham to be an example of solid faith.  Our faith in Jesus allows us to have eternal life in paradise.
         </p>
-        <p class='further'><strong>Further Reading: Genesis 1-3</strong> &ndash; </p>
+        <p class='further'><strong>Further Reading: Genesis 1-3</strong> &ndash;</p>
       </div>
       <hr>
       <!--End of Lesson-->

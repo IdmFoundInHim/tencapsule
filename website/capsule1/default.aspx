@@ -163,7 +163,7 @@
       </div> <hr>
     </div>
       <div>
-          <h4><a href='Files/Capsule 1.pdf'>Go to Capsule 1 in File Form</a></h4>
+          <h4><a href='Capsule1.pdf'>Go to Capsule 1 in File Form</a></h4>
       </div>
     <div class='button'>
       <h4 class='buttontext'>
