@@ -65,6 +65,7 @@ a{
     clear:both;
     margin:auto;
     text-align:center;
+    font-family: Bahnschrift, sans-serif;
 }
 
 .buttontext{
@@ -72,10 +73,7 @@ a{
     font-size:1.45rem;
     margin:auto;
     line-height: 2rem;
-}
-
-.uline{
-    text-decoration:underline;
+    font-family: Bahnschrift, sans-serif;
 }
 
 /* Text Settings */
@@ -227,21 +225,6 @@ hr {
     box-shadow: 0 5px 15px #000000;
 }
 
-#header{
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    flex-direction: row;
-    position: fixed;
-    top: 0;
-    bottom: auto;
-    z-index: 10;
-    width: 100%;
-    background: #FFFDF7;
-    background: #FFF9E9;
-    box-shadow: 0 5px 15px #000000;
-}
-
 #primary{
     position: relative;
 }
@@ -261,6 +244,7 @@ hr {
     line-height: 2.8rem;
     font-weight: bold;
     padding: 0 30px;
+    font-family: Bahnschrift, sans-serif;
 }
 
 .logo{
