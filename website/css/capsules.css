@@ -42,10 +42,13 @@ a{
     /*This ruleset allows rules to be inherited from the paragraph where needed*/
     font-size: inherit;
 }
-
+@font-face {
+    font-family: Bahnschrift;
+    src: url(bahnschrift.ttf) format("truetype");
+}
 .lessonhead a {
     /* For Links to Verses*/
-    font-family:Lucida Bright, serif;
+    font-family: Bahnschrift, sans-serif;
     color:#9c0000;
     font-size:1.5em;
     text-align: center;
@@ -76,13 +79,10 @@ a{
 }
 
 /* Text Settings */
-@font-face {
-    font-family: Bahnschrift;
-    src: url(bahnschrift.ttf) format("truetype");
-}
+
 
 h1{
-    font-family: Bahnschrift, 'Lucida Bright', serif;
+    font-family: Bahnschrift, sans-serif;
     font-weight: 300;
     color:#9c0000;
     font-size:3rem;
@@ -92,7 +92,7 @@ h1{
 }
 
 h2{
-    font-family:Bahnschrift, 'Lucida Bright', serif;
+    font-family: Bahnschrift, sans-serif;
     font-weight: 300;
     color:#9c0000;
     font-size:2rem;
@@ -102,7 +102,7 @@ h2{
 }
 
 .sectionhead{
-    font-family:Lucida Bright, serif;
+    font-family: Bahnschrift, sans-serif;
     color:#9c0000;
     font-style:italic;
     font-size:1.7rem;
@@ -113,7 +113,7 @@ h2{
 }
 
 .lessonhead{
-    font-family:Lucida Bright, serif;
+    font-family:Bahnschrift, sans-serif;
     color:#9c0000;
     font-size:1.5rem;
     text-align: center;
