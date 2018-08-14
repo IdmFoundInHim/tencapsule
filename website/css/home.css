@@ -657,3 +657,15 @@ h2{
         margin: 14% 0 0 0
     }
 }
+
+@media only screen and (min-width: 980px) and (max-width: 1780px){
+    div#introSeries, div#specialSeries{
+        height: 27rem;
+    }
+}
+
+@media only screen and (min-width: 949px) and (max-width: 979px){
+    div#introSeries, div#specialSeries{
+        height: 30rem;
+    }
+}
