@@ -149,7 +149,7 @@
     <div id='disclaim'>
       <p>Another disclaimer:  This domain contains many external links.  I cannot make any guarantees on the content of other domains.  I also do not claim any official endorsements on these websites.</p>
     </div>
-    <a href='http:/github.com/IdmFoundInHim/tencapsule' id='versionmessage'>Rebound Release (18.08.16) - See it on GitHub!</a>
+    <a href='http://github.com/IdmFoundInHim/tencapsule' id='versionmessage'>Rebound Release (18.08.16) - See it on GitHub!</a>
     <script src='denoscript.js'></script>
     <script src='navbar.js'></script>
     <script src='home.js'></script>
