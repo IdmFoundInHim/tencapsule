@@ -16,5 +16,16 @@ Mark {
 
 Luke {
 9 ^Matt 17 (encompasses different range of events)
+12 A lot of advice on how to live (personal favorite)
+15 Lost parables
+19 Zacchaeus + Parable + Triumphal Entry
+20 On Authority of many kinds
+}
 
+John {
+1 The absolute statement of Jesus's identity
+2-6 contain various miracles
+7-8 Who Jesus is, according to everyone
+9 the healing of the blind man
+10 Jesus as the shepherd and more about who Jesus is
 }
