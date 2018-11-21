@@ -2,4 +2,4 @@
 
 (C) 2018 IdmFoundInHim/Isaac M.
 
-This is the beginning.  Full README coming soon.
+This is the beginning.  Full README coming <del>soon</del> eventually.
