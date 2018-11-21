@@ -47,9 +47,16 @@ $(function () {
     });
     $('#close-button').click(function () {
         $('#query-box').hide();
+        $('#query-box > div:not(.interrupt)').hide();
         $('#phase1').show();
         $('#curtain').hide();
     });
+    $('#reset-button').click(function () {
+        $('#query-box > div:not(.interrupt)').hide();
+        $('#phase2').show();
+        $('#rec_storage').text('NONE');
+    });
+
 });
 
 //jQuery Function Set 2: Carousel
