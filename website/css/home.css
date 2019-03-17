@@ -7,6 +7,7 @@
     src: url(bahnschrift.ttf) format("truetype");
 }
 
+
 /* Full Page Rules */
 body{
     font-family: Verdana, Geneva, 'DejaVu Sans', sans-serif;
@@ -18,6 +19,7 @@ body{
     border: 0;
 }
 
+
 /* nojs-5 Management */
 /* Will be overwritten if js is enabled */
 .showifjs{
@@ -27,6 +29,7 @@ body{
 .hideifjs{
     display: initial;
 }
+
 
 /* Hide mobile content on large devices */
 @media only screen and (min-width: 643px){
@@ -38,25 +41,34 @@ body{
     }
 }
 
+
 /* Font Formatting */
 .attention{
     font-family: Bahnschrift, sans-serif;
-    color:#9c0000;
-    text-align:center;
+    color: #9c0000;
+    text-align: center;
+}
+
+.button{
+    text-align: center;
+    text-decoration: none;
+    font-size: 2rem;
+    line-height: 2.4rem;
+    font-family: Bahnschrift, sans-serif;
 }
 
 .description{
-    font-size:1rem;
+    font-size: 1rem;
 }
 
 #disclaim p{
-    font-family:'Courier New', Courier, monospace;
-    color:#000000;
-    font-size:0.7rem;
+    font-family: 'Courier New', Courier, monospace;
+    color: #000000;
+    font-size: 0.7rem;
 }
 
 #intro{
-    text-align:center;
+    text-align: center;
 }
 
 #intro p{
@@ -64,21 +76,44 @@ body{
     line-height: 1.333em;	
 }
 
+#iSPic, #pSPic, #sSPic{
+    color: #ffffff;
+}
+
+#links > div{
+    color: #ffffff;
+}
+
 #query p{
     font-family: Bahnschrift, sans-serif;
     font-size: 1.7rem;
+    font-weight: 900;
+    color: #ffffff;
 }
 
-/* Box Formatting */
 
+/* Box Formatting */
 .attention{
     margin: 20px;
 }
 
+.button{
+    display: block;
+    height: 4.7rem;
+    width: 7.9rem;
+    border: 1px solid #000000; 
+    border-radius: 1.5625rem;
+    margin: 20px auto 0px auto;
+}
+
+#carousel{
+    height: 300px;
+}
+
 .description{
-    margin: 0.333rem auto 2.667rem auto; 
+    margin: 0.333rem auto 2.667rem auto;
     max-width: 80%;
-    display:block;
+    display: block;
 }
 
 #intro{
@@ -86,8 +121,8 @@ body{
     margin: 2rem auto 2rem auto;
 }
 
-#slogan{
-    margin: 12.5% 0 0 0;
+#iSPic, #pSPic, #sSPic{
+    height: 300px;
 }
 
 #links{
@@ -115,6 +150,12 @@ body{
     display: block;
 }
 
+#p2n, #p2y, #p3y, .c1r, .c2r, .c3r, .rsr{
+    width: 33%;
+    display: inline-block;
+    border: 1px solid;
+}
+
 #query{
     border: 1px solid;
 }
@@ -123,10 +164,10 @@ body{
     margin: 0.5rem 0;
 }
 
-#p2y, #p2n, #p3y, .c1r, .c2r, .c3r, .rsr{
-    width: 33%;
-    display: inline-block;
+#slogan{
+    margin: 12.5% 0 0 0;
 }
+
 
 /* Hyperlink Formatting */
 a:link{
@@ -134,7 +175,7 @@ a:link{
 }
 
 a:hover{
-    color:#980000;
+    color: #980000;
     text-decoration: none;
 }
 
@@ -142,10 +183,19 @@ a:visited{
     color: #9c1900;
 }
 
+#query-box a :not(.button):visited{
+    color: #ffe2b5;
+}
+
+#query-box a:not(.button):link{
+    color: #ff8585;
+}
+
+
 /* Heading Formatting */
 h1{
-    text-align:center;
-    font-size:3rem;
+    text-align: center;
+    font-size: 3rem;
     line-height: 3.333rem;
 }
 
@@ -157,10 +207,10 @@ h2{
 }
 
 h3{
-    text-align:center;
+    text-align: center;
     display: block;
-    font-size:1.8rem;
-    margin:auto;
+    font-size: 1.8rem;
+    margin: auto;
     line-height: 1.667rem;
 }
 
@@ -171,16 +221,5 @@ h3{
 
 /* Button Formatting */
 .button{
-    display:block;
-    height:4.7rem;
-    width:7.9rem;
     background: #ffffff;
-    border:1px solid #000000; 
-    border-radius:1.5625rem;
-    margin:20px auto 0px auto;
-    text-align:center;
-    text-decoration: none;
-    font-size: 2rem;
-    line-height: 2.4rem;
-    font-family: Bahnschrift, sans-serif;
 }
