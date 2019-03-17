@@ -29,25 +29,6 @@ body{
     }
 }
 
-/*Link Settings*/
-a:link{
-    color: #2a003e;
-}
-
-a:visited{
-    color: #9c1900;
-}
-
-a:hover{
-    color:#980000;
-    text-decoration: none;
-}
-
-a{
-    /*This ruleset allows rules to be inherited from the paragraph where needed*/
-    font-size: inherit;
-}
-
     /*Button Settings*/
 .button{
     height:4.7rem;

@@ -1,22 +1,186 @@
 /* The Ten Capsule (TM) 2018
     Created as a division of Surprise Ministries by Isaac M. */
 
-/*General Rules*/	
-*{
-    font-family: Verdana, Geneva, 'DejaVu Sans', sans-serif;
-    font-size: 16px;
+/* Custom Font Rules */
+@font-face {
+    font-family: Bahnschrift;
+    src: url(bahnschrift.ttf) format("truetype");
 }
 
-body, html{
+/* Full Page Rules */
+body{
+    font-family: Verdana, Geneva, 'DejaVu Sans', sans-serif;
+    font-size: 16px;
     background: #FFFDF7;
     background: #FFF9E9;
     margin: 0;
     padding: 0;
     border: 0;
 }
+
+/* nojs-5 Management */
+/* Will be overwritten if js is enabled */
 .showifjs{
     display: none;
 }
+
 .hideifjs{
     display: initial;
+}
+
+/* Hide mobile content on large devices */
+@media only screen and (min-width: 643px){
+    .mobileonly {
+        display: none !important;
+    }
+    .logo{
+        max-width: 25%;
+    }
+}
+
+/* Font Formatting */
+.attention{
+    font-family: Bahnschrift, sans-serif;
+    color:#9c0000;
+    text-align:center;
+}
+
+.description{
+    font-size:1rem;
+}
+
+#disclaim p{
+    font-family:'Courier New', Courier, monospace;
+    color:#000000;
+    font-size:0.7rem;
+}
+
+#intro{
+    text-align:center;
+}
+
+#intro p{
+    font-size: 1.15rem;
+    line-height: 1.333em;	
+}
+
+#query p{
+    font-family: Bahnschrift, sans-serif;
+    font-size: 1.7rem;
+}
+
+/* Box Formatting */
+
+.attention{
+    margin: 20px;
+}
+
+.description{
+    margin: 0.333rem auto 2.667rem auto; 
+    max-width: 80%;
+    display:block;
+}
+
+#intro{
+    max-width: 92%;
+    margin: 2rem auto 2rem auto;
+}
+
+#slogan{
+    margin: 12.5% 0 0 0;
+}
+
+#links{
+    margin: 0 10%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+#links p{
+    margin: 10px;
+}
+
+#links > div{
+    width: 48%;
+    height: 24rem;
+    display: block;
+}
+
+#links #planSeries{
+    margin: 10px 0 0 0;
+    height: auto;
+    width: auto;
+    display: block;
+}
+
+#query{
+    border: 1px solid;
+}
+
+#query p{
+    margin: 0.5rem 0;
+}
+
+#p2y, #p2n, #p3y, .c1r, .c2r, .c3r, .rsr{
+    width: 33%;
+    display: inline-block;
+}
+
+/* Hyperlink Formatting */
+a:link{
+    color: #2a003e;
+}
+
+a:hover{
+    color:#980000;
+    text-decoration: none;
+}
+
+a:visited{
+    color: #9c1900;
+}
+
+/* Heading Formatting */
+h1{
+    text-align:center;
+    font-size:3rem;
+    line-height: 3.333rem;
+}
+
+h2{
+    font-size: 2.5rem;
+    font-family: Bahnschrift, sans-serif;
+    text-align: center;
+    margin: 1rem 0;
+}
+
+h3{
+    text-align:center;
+    display: block;
+    font-size:1.8rem;
+    margin:auto;
+    line-height: 1.667rem;
+}
+
+#links h3{
+    width: 100%;
+    display: block;
+}
+
+/* Button Formatting */
+.button{
+    display:block;
+    height:4.7rem;
+    width:7.9rem;
+    background: #ffffff;
+    border:1px solid #000000; 
+    border-radius:1.5625rem;
+    margin:20px auto 0px auto;
+    text-align:center;
+    text-decoration: none;
+    font-size: 2rem;
+    line-height: 2.4rem;
+    font-family: Bahnschrift, sans-serif;
 }
