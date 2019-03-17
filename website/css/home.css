@@ -42,53 +42,48 @@ body{
 }
 
 
-/* Font Formatting */
-.attention{
-    font-family: Bahnschrift, sans-serif;
-    color: #9c0000;
-    text-align: center;
-}
-
+/* Background Formatting */
 .button{
-    text-align: center;
-    text-decoration: none;
-    font-size: 2rem;
-    line-height: 2.4rem;
-    font-family: Bahnschrift, sans-serif;
+    background: #ffffff;
 }
 
-.description{
-    font-size: 1rem;
+#header{
+    background: #FFFDF7; /* TODO: Double Rule */
+    background: #FFF9E9;
+    box-shadow: 0 5px 15px #000000;
 }
 
-#disclaim p{
-    font-family: 'Courier New', Courier, monospace;
-    color: #000000;
-    font-size: 0.7rem;
+.interrupt{
+    background: #333333;
 }
 
-#intro{
-    text-align: center;
-}
-
-#intro p{
-    font-size: 1.15rem;
-    line-height: 1.333em;	
-}
-
-#iSPic, #pSPic, #sSPic{
-    color: #ffffff;
+#iSPic{
+    background: url('../images/iSPic.jpg') center center/100% no-repeat;
 }
 
 #links > div{
-    color: #ffffff;
+    background: #9C0000;
 }
 
-#query p{
-    font-family: Bahnschrift, sans-serif;
-    font-size: 1.7rem;
-    font-weight: 900;
-    color: #ffffff;
+#p2n, #p2y, #p3y, .c1r, .c2r, .c3r, .rsr{
+    background: #f9b031;
+}
+
+#pSPic{
+    background: url('../images/pSPic.jpg') center center/100% no-repeat;
+}
+
+#query{
+    text-align: center;
+    background: #9C0000;
+}
+
+#sSPic{
+    background: url('../images/sSPic.jpg') center center/100% no-repeat;
+}
+
+.txtContain {
+    background: #9C0000;
 }
 
 
@@ -116,13 +111,55 @@ body{
     display: block;
 }
 
+#header{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: row;
+    position: fixed;
+    top: 0;
+    bottom: auto;
+    z-index: 10;
+    width: 100%;
+}
+
+.headmenu{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+    width: 75%;
+}
+
+.headmenu a{
+    display: flex;
+    padding: 0 30px;
+}
+
+.interrupt{
+    height: 20px;
+}
+
 #intro{
     max-width: 92%;
     margin: 2rem auto 2rem auto;
 }
 
+#iSCont{
+    position: absolute;
+    width: 100%;
+}
+
+#iSeriesDropdown{
+    display: none;
+}
+
 #iSPic, #pSPic, #sSPic{
     height: 300px;
+}
+
+.jsonly{
+    display: none;
 }
 
 #links{
@@ -150,10 +187,31 @@ body{
     display: block;
 }
 
+.logo{
+    height: auto;
+    max-height: 170px;
+    max-width: 388.583px;
+    padding: 10px 0 0 10px;
+}
+
 #p2n, #p2y, #p3y, .c1r, .c2r, .c3r, .rsr{
     width: 33%;
     display: inline-block;
     border: 1px solid;
+}
+
+#phase2, .phase3, .phase4, .result, .showMD{
+    display: none;
+}
+
+#primary{
+    position: relative;
+}
+
+#pSCont{
+    position: absolute;
+    width: 100%;
+    display: none; /* Changed by JS */
 }
 
 #query{
@@ -166,6 +224,112 @@ body{
 
 #slogan{
     margin: 12.5% 0 0 0;
+}
+
+#sSCont{
+    position: absolute;
+    width: 100%;
+    display: none; /* Changed by JS */
+}
+
+#titlebar{
+    margin: auto;
+    display: block;
+}
+
+#titlemobile{
+    display: none;
+}
+
+.txtContain {
+    position: relative;
+    left: 20%;
+    top: 25px;
+    opacity: 0.9;
+    width: 60%;
+    padding: 1em;
+    margin: 0
+}
+
+#versionmessage{
+    display: block;
+}
+
+
+/* Font Formatting */
+.attention{
+    font-family: Bahnschrift, sans-serif;
+    color: #9c0000;
+    text-align: center;
+}
+
+.button{
+    text-align: center;
+    text-decoration: none;
+    font-size: 2rem;
+    line-height: 2.4rem;
+    font-family: Bahnschrift, sans-serif;
+}
+
+.description{
+    font-size: 1rem;
+}
+
+#disclaim p{
+    font-family: 'Courier New', Courier, monospace;
+    color: #000000;
+    font-size: 0.7rem;
+}
+
+.headmenu a{
+    text-align: center;
+    font-size: 3.0rem;
+    line-height: 3.0rem;
+    font-weight: bold;
+    font-family: Bahnschrift, sans-serif;
+}
+
+.interrupt{
+    color: #ffffff;
+    font-size: 1rem;
+    line-height: 1rem;
+}
+
+#intro{
+    text-align: center;
+}
+
+#intro p{
+    font-size: 1.15rem;
+    line-height: 1.333em;	
+}
+
+#iSPic, #pSPic, #sSPic{
+    color: #ffffff;
+}
+
+#links > div{
+    color: #ffffff;
+}
+
+#query p{
+    font-family: Bahnschrift, sans-serif;
+    font-size: 1.7rem;
+    font-weight: 900;
+    color: #ffffff;
+}
+
+.txtContain *{
+    color: #ffffff;
+    font-weight: bold;
+    opacity: 1;
+    text-align: left;
+}
+
+#versionmessage{
+    font-size: 1rem;
+    text-align: center;
+    font-family: Bahnschrift, sans-serif;
 }
 
 
@@ -219,7 +383,3 @@ h3{
     display: block;
 }
 
-/* Button Formatting */
-.button{
-    background: #ffffff;
-}

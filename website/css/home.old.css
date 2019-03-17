@@ -6,9 +6,9 @@
     .mobileonly {
         display: none !important;
     }
-    .logo{
+/*    .logo{
         max-width: 25%;
-    }
+    }*/
 }
 
 /*Font Styles*/
@@ -29,9 +29,6 @@
 
 
 
-#links > div{
-    background: #9C0000;
-}
 
 
 
@@ -43,41 +40,17 @@
 
 
 
-#query{
-    text-align: center;
-    background: #9C0000;
-}
-
-
-#p2y, #p2n, #p3y, .c1r, .c2r, .c3r, .rsr{
-    background: #f9b031;
-}
 
 
 
 
-#iSeriesDropdown{
-    display: none;
-}
 
 
 
-#iSPic{
-    background: url('../images/iSPic.jpg') no-repeat;
-}
-
-#sSPic{
-    background: url('../images/sSPic.jpg') no-repeat;
-}
-
-#pSPic{
-    background: url('../images/pSPic.jpg') no-repeat;
-}
-
-#iSPic, #pSPic, #sSPic{
+/* #iSPic, #pSPic, #sSPic{
     background-size: 100%;
     background-position: center center;
-}
+} */
 
 /* The following rules enable when the image can no longer scale down properly
 At that point, the image will stop scaling and will allow itself to crop
@@ -94,68 +67,29 @@ automatically. */
     }
 }
 
-#iSCont{
-    position: absolute;
-    width: 100%;
-}
-#sSCont{
-    position: absolute;
-    width: 100%;
-    display: none;
-}
-#pSCont{
-    position: absolute;
-    width: 100%;	
-    display: none;
-}
-
-.txtContain {
-    text-align: left;
-    position: relative;
-    left: 20%;
-    top: 25px;
-    opacity: 0.9;
-    background: #9C0000;
-    width: 60%;
-    padding: 1em;
-    margin: 0
-}
-
-.txtContain *{
-    color: #ffffff;
-
-    opacity: 1;
-    font-weight: bold;
-}
-
-#titlebar{
-    margin: auto;
-    display: block;
-}
 
 
-#titlemobile{
-    display: none;
-}
 
 @media only screen and (max-width: 949px){
-h1{
-    font-size: 2rem;
-}
-h2{
-    font-size: 1.5rem;
-}
+    h1{
+        font-size: 2rem;
+    }
 
-#links{
-    margin: 0;
-}
-#links>div{
-    width: 100%;
-    height: auto;
-    float: none;
-    padding: 1em 0;
-    margin: 1em 0;
-}
+    h2{
+        font-size: 1.5rem;
+    }
+
+    #links{
+        margin: 0;
+    }
+
+    #links>div{
+        width: 100%;
+        height: auto;
+        float: none;
+        padding: 1em 0;
+        margin: 1em 0;
+    }
 }
 
     
@@ -229,6 +163,7 @@ h2{
         z-index: 100;
         top: 0;
     }
+
     #p2y, #p2n, #p3y, .c1r, .c2r, .c3r, .rsr{
         display: block;
         width: 100%;
@@ -236,6 +171,7 @@ h2{
         border: 1px solid;
         background: #f9b031;
     }
+
     #curtain{
         display: none;
         width: 100%;
@@ -247,66 +183,9 @@ h2{
     }
 
 }
-.interrupt{
-    height: 20px;
-    background: #333333;
-    color: #ffffff;
-    font-size: 1rem;
-    line-height: 1rem;
-}
+
+
 /*JS Properties*/
-#phase2, .phase3, .phase4, .result, .showMD{
-    display: none;
-}
-
-.jsonly{
-    display: none;
-}
-
-
-#header{
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    flex-direction: row;
-    position: fixed;
-    top: 0;
-    bottom: auto;
-    z-index: 10;
-    width: 100%;
-    background: #FFFDF7;
-    background: #FFF9E9;
-    box-shadow: 0 5px 15px #000000;
-}
-
-#primary{
-    position: relative;
-}
-
-.headmenu{
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    flex-direction: row;
-    width: 75%;
-}
-
-.headmenu a{
-    display: flex;
-    text-align: center;
-    font-size: 3.0rem;
-    line-height: 3.0rem;
-    font-weight: bold;
-    padding: 0 30px;
-    font-family: Bahnschrift, sans-serif;
-}
-
-.logo{
-    height: auto;
-    max-height: 170px;
-    max-width: 388.583px;
-    padding: 10px 0 0 10px;
-}
 
 @media only screen and (min-width: 1550px){
     #primary{
@@ -376,7 +255,7 @@ h2{
         width: 33%;
         top: 125%;
         left: 1%;
-        background: #FFFDF7;
+        background: #FFFDF7; /* TODO: Double Rule */
         background: #FFF9E9;
         height: 200%;
         box-shadow: 15px 20px 20px -10px #000000;
@@ -478,9 +357,6 @@ h2{
         font-size: 1.2rem
     }
 }
-#titlemobile{
-    display: none;
-}
 
 @media only screen and (min-width: 3000px){
     #slogan{
@@ -489,13 +365,6 @@ h2{
     #primary:first-child{
         font-size: 1.2rem;
     }
-}
-
-#versionmessage{
-    display: block;
-    font-size: 1rem;
-    text-align: center;
-    font-family: Bahnschrift, sans-serif;
 }
 
 @media only screen and (min-width: 642px) and (max-width: 699px){
