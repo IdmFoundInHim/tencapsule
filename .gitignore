@@ -1,7 +1,7 @@
 .vscode/
 .eslintrc.js*
 */.vscode/
-*/.eslintrc.json
+*/.eslintrc.js*
 *.tmp
 desktop.ini
 */.env
