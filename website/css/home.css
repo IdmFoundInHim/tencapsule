@@ -16,7 +16,7 @@
 /* Custom Font Rules */
 @font-face {
     font-family: Bahnschrift;
-    src: url(bahnschrift.ttf) format("truetype");
+    src: local(Bahnschrift), url(bahnschrift.ttf) format("truetype");
 }
 
 

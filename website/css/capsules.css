@@ -1,2 +1,477 @@
-/* The Ten Capsule (TM) 2018
+/* The Ten Capsule (TM) 2019
     Created as a division of Surprise Ministries by Isaac M. */
+
+/* TABLE OF CONTENTS
+ * Custom Fonts :16
+ * Full Page :23
+ * Background :55
+ * Box :70
+ * Font :160
+ * Hyperlinks :204
+ * Headings :246
+ * Responsive :273
+*/
+
+
+/* Custom Font Rules */
+@font-face {
+    font-family: Bahnschrift;
+    src: local(Bahnschrift), url(bahnschrift.ttf) format("truetype");
+}
+
+
+/* Full Page Rules */
+body {
+    font-family: Verdana, Geneva, 'DejaVu Sans', sans-serif;
+    font-size: 16px;
+    background: #FFFDF7;
+    background: #FFF9E9;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+/* nojs-5 Management */
+/* Will be overwritten if js is enabled */
+.showifjs {
+    display: none;
+}
+
+.hideifjs {
+    display: initial;
+}
+
+/* Hide mobile content on large devices */
+@media only screen and (min-width: 643px) {
+    .mobileonly {
+        display: none !important;
+    }
+    .logo {
+        max-width: 25%;
+    }
+}
+
+
+/* Background Formatting */
+
+#header {
+    background: #FFFDF7;
+    background: #FFF9E9;
+    box-shadow: 0 5px 15px #000000;
+}
+
+hr {
+    background:#000000;
+    border-color: #000000;
+    color: #000000;
+}
+
+
+/* Box Formatting */
+
+.button {
+    height:4.7rem;
+    width:7.7rem;
+    border:1px solid #000000;
+    border-radius:1.5625rem;
+    display:block;
+    margin:auto;
+}
+
+#copyinfo p {
+    margin: 1rem 0 0 0;
+}
+
+.descrip {
+    max-width: 80%;
+    margin: 2rem auto 1rem auto;
+}
+
+.further {
+    /*Not in Capsule 1*/
+    margin: 2rem auto 1rem auto;
+    max-width: 86%;
+}
+
+#header {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: row;
+    position: fixed;
+    top: 0;
+    bottom: auto;
+    left: 0;
+    z-index: 10;
+    width: 100%;
+}
+
+.headmenu {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+    width: 75%;
+}
+
+.headmenu a {
+    display: flex;
+    padding: 0 30px;
+}
+
+#intro, #end, .saved {
+    max-width: 92%;
+    margin: 2rem auto 2rem auto;
+}
+
+#intro p {
+    margin: 1rem auto 1rem auto;
+}
+
+.logo {
+    height: auto;
+    max-width: 388.583px;
+    padding: 10px 0 0 10px;
+}
+
+#prayer {
+    /* Capsule 2 "Breaking Down the Lord's Prayer" */
+    border: 1px solid #000000;
+    padding: 0 6% ;
+}
+
+#prayer-format p {
+    /* Capsule 2 "Breaking Down the Lord's Prayer" */
+    border:2px 0px solid grey;
+}
+
+#primary {
+    position: relative;
+}
+
+.verse {
+    display: block;
+    max-width: 86%;
+    height: auto;
+    margin: 1rem auto 2rem auto;
+}
+
+
+/* Font Formatting */
+
+.button {
+    font-size:1.45rem;
+    font-weight: bold;
+    font-family: Bahnschrift, sans-serif;
+    line-height: 2rem;
+    text-align:center;
+}
+
+#copyinfo p {
+    font-family:'Courier New', Courier, monospace;
+    color:#000000;
+    font-size:0.7rem;
+    line-height: 1rem;
+}
+
+.descrip {
+    text-align:justify;
+    font-size:1rem;
+}
+
+#prayer h5 {
+    /* Capsule 2 "Breaking Down the Lord's Prayer" */
+    text-decoration: underline;
+    text-align: center;
+    font-size: 1.1rem;
+}
+
+#prayer-format {
+    /* Capsule 2 "Breaking Down the Lord's Prayer" */
+    font-size: 1rem;
+}
+
+.verse {
+    color:#db0404;
+    font-family:'Century Gothic',Futura,'Apple Gothic',AppleGothic,'URW Gothic L','Avant Garde',sans-serif;
+    font-style: italic;
+    font-size:1.2rem;
+    text-align:center;
+    line-height: 1.5rem;
+}
+
+
+/* Heading Formatting */
+h1 {
+    font-family: Bahnschrift, sans-serif;
+    font-weight: 300;
+    color:#9c0000;
+    font-size:3rem;
+    text-align:center;
+    margin: calc(15% + 1.5rem) 0 1.5rem 0;
+    line-height: 3rem;
+}
+
+h2 {
+    font-family: Bahnschrift, sans-serif;
+    font-weight: 300;
+    color:#9c0000;
+    font-size:2rem;
+    text-align:center;
+    margin: 1.5rem 0;
+    line-height: 2rem;
+}
+
+.lessonhead {
+    font-family:Bahnschrift, sans-serif;
+    color:#9c0000;
+    font-size:1.5rem;
+    text-align: center;
+    margin: 1rem 0;
+    line-height: 2rem;
+}
+
+.sectionhead {
+    font-family: Bahnschrift, sans-serif;
+    color:#9c0000;
+    font-style:italic;
+    font-size:1.7rem;
+    text-align: center;
+    text-decoration: underline;
+    margin: 2rem 0;
+    line-height: 2rem;
+}
+
+
+/* Hyperlink Formatting */
+a {
+    /*This ruleset allows rules to be inherited from the paragraph where needed*/
+    font-size: inherit;
+}
+a:link {
+    color: #2a003e;
+}
+
+a:hover {
+    color: #980000;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #9c1900;
+}
+
+
+.lessonhead a {
+    /* For Links to Verses*/
+    font-family: Bahnschrift, sans-serif;
+    color:#9c0000;
+    font-size:1.5em;
+    text-align: center;
+}
+
+/* Media Rules (Responsive) Formatting */
+
+@media only screen and (max-width: 275px) {
+    #primary a:first-child {
+        font-size: 1.2rem
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    #logoM img {
+        height: 100px;
+        display: block;
+    }
+}
+
+@media only screen and (max-width: 642px) {
+    /* Background Formatting */
+    .nojs #primary:hover a {
+        background: #FFF9E9;
+    }
+
+    #header{
+        background: #FFF9E9;
+    }
+
+    /* Box Formatting */
+    #carosuel {
+        z-index: 5;
+    }
+
+    #header {
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        position:fixed;
+        top: 0;
+        bottom: auto;
+        width: 100%;
+        z-index: 10;
+    }
+
+    .headmenu {
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        width: auto;
+        height: 40%;
+    }
+    
+    .headmenu a {
+        display: block;
+        padding: 0;
+    }
+
+    .headmenu br {
+        display: none;
+        content: ' '
+    }
+
+    .logo {
+        width: 60%;
+        height: auto;
+        max-height: 170px;
+        max-width: 388.583px;
+        margin: auto;
+        padding: 0;
+        display: block;
+    }
+
+    #primary {
+        display: none;
+    }
+    #primary>a:first-child {
+        width: auto;
+        display: block;
+    }
+
+    .nojs #primary {
+        display: flex;
+    }
+
+    .nojs #primary a {
+        display: none;
+    }
+
+    .nojs #primary:hover a {
+        display: block;
+        width: auto;
+    }
+
+    .secondary {
+        display: none;
+        background: #ffffff;
+    }
+
+    .secondary a {
+        padding: 0 25px
+    }
+
+    /* Font Formatting */
+    .headmenu a {
+        text-align: center;
+        font-size: 1.5rem;
+    }
+
+    #primary-show {
+        font-size: 2rem;
+    }
+    
+    .nojs .headmenu span {
+        font-size: 2rem;
+    }
+
+    /* Heading Formatting */
+    h1 {
+        margin: 182px 0 0 0;
+    }
+}
+
+@media only screen and (min-width: 642px) and (max-width:846px) {
+    #primary {
+        width: calc( 100% - 4.4rem );
+    }
+    
+    #primary a {
+        font-size: 1.1rem;
+        line-height: 1.1rem;
+    }
+
+    .logo {
+        max-height: 4.4rem
+    }
+}
+
+@media only screen and (min-width:643px) {
+    .secondary {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        width: 33%;
+        top: 125%;
+        left: 1%;
+        background: #FFFDF7;
+        background: #FFF9E9;
+        height: 200%;
+        box-shadow: 15px 20px 20px -10px #000000;
+    }
+
+    #secondary {
+        position: relative;
+        box-shadow: 3;
+    }
+
+}
+
+@media only screen and (min-width: 847px) and (max-width: 1359px) {
+    #primary {
+        width: calc( 100% - 6.4rem );
+    }
+    
+    #primary a {
+        font-size: 1.6rem;	
+        line-height: 1.6rem;
+    }
+
+    .logo {
+        max-height: 6.4rem
+    }
+}
+
+@media only screen and (min-width: 1359px) and (max-width: 1549px) {
+    #primary {
+        width: calc( 100% - 8rem );
+    }
+    
+    #primary a {
+            font-size: 2rem;	
+            line-height: 2rem;
+    }
+
+    .logo {
+        max-height: 8rem
+    }
+}
+
+@media only screen and (min-width: 1550px) {
+    #primary {
+        width: calc( 100% - 11.4rem );
+    }
+    
+    #primary a {
+            font-size: 2.8rem;	
+            line-height: 2.8rem;
+    }
+
+    .logo {
+        max-height: 11.4rem
+    }
+}
+
+@media only screen and (min-width: 3000px) {
+    h1 {
+        margin: 324px 0 0 0;
+    }
+}
