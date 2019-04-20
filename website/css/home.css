@@ -16,9 +16,9 @@
 /* Custom Font Rules */
 @font-face {
     font-family: Bahnschrift;
-    src: local(Bahnschrift), url(bahnschrift.ttf) format("truetype");
+    src: local(Bahnschrift), url(bahnschrift.woff) format ("woff");
+    /* Bahnschrift 2.0 from https://www.cufonfonts.com/font/bahnschrift */
 }
-
 
 /* Full Page Rules */
 body {

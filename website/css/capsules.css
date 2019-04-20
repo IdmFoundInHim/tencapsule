@@ -7,18 +7,18 @@
  * Background :55
  * Box :70
  * Font :160
- * Hyperlinks :204
- * Headings :246
- * Responsive :273
+ * Headings :216
+ * Hyperlinks :258
+ * Responsive :285
 */
 
 
 /* Custom Font Rules */
 @font-face {
     font-family: Bahnschrift;
-    src: local(Bahnschrift), url(bahnschrift.ttf) format("truetype");
+    src: local(Bahnschrift), url(bahnschrift.woff) format ("woff");
+    /* Bahnschrift 2.0 from https://www.cufonfonts.com/font/bahnschrift */
 }
-
 
 /* Full Page Rules */
 body {
@@ -82,7 +82,7 @@ hr {
     margin: 1rem 0 0 0;
 }
 
-.descrip {
+.lesson>p {
     max-width: 80%;
     margin: 2rem auto 1rem auto;
 }
@@ -149,7 +149,7 @@ hr {
     position: relative;
 }
 
-.verse {
+.lesson>h5 {
     display: block;
     max-width: 86%;
     height: auto;
@@ -174,9 +174,21 @@ hr {
     line-height: 1rem;
 }
 
-.descrip {
+.headmenu a {
+    text-align: center;
+    font-size: 2.8rem;
+    line-height: 2.8rem;
+    font-weight: bold;
+    font-family: Bahnschrift, sans-serif;
+}
+
+.lesson>p {
     text-align:justify;
     font-size:1rem;
+}
+
+p {
+    line-height: 1.5rem;
 }
 
 #prayer h5 {
@@ -191,7 +203,7 @@ hr {
     font-size: 1rem;
 }
 
-.verse {
+.lesson>h5 {
     color:#db0404;
     font-family:'Century Gothic',Futura,'Apple Gothic',AppleGothic,'URW Gothic L','Avant Garde',sans-serif;
     font-style: italic;
@@ -222,7 +234,7 @@ h2 {
     line-height: 2rem;
 }
 
-.lessonhead {
+.lesson>h4 {
     font-family:Bahnschrift, sans-serif;
     color:#9c0000;
     font-size:1.5rem;
@@ -262,7 +274,7 @@ a:visited {
 }
 
 
-.lessonhead a {
+.lesson>h4 a {
     /* For Links to Verses*/
     font-family: Bahnschrift, sans-serif;
     color:#9c0000;
