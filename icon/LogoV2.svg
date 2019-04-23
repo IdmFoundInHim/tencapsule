@@ -27,16 +27,16 @@
      borderopacity="1.0"
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.11313708"
-     inkscape:cx="2845.9532"
-     inkscape:cy="-39.123037"
+     inkscape:zoom="0.22627416"
+     inkscape:cx="-565.12758"
+     inkscape:cy="-1415.5156"
      inkscape:document-units="px"
      inkscape:current-layer="layer2"
      showgrid="false"
-     inkscape:window-width="1920"
-     inkscape:window-height="1017"
-     inkscape:window-x="-8"
-     inkscape:window-y="-8"
+     inkscape:window-width="3000"
+     inkscape:window-height="1875"
+     inkscape:window-x="-13"
+     inkscape:window-y="-13"
      inkscape:window-maximized="1"
      inkscape:grid-bbox="true"
      units="px"
@@ -44,7 +44,14 @@
      inkscape:measure-end="2048.44,-1484.38"
      showguides="false"
      inkscape:guide-bbox="true"
-     inkscape:pagecheckerboard="true">
+     inkscape:pagecheckerboard="true"
+     inkscape:snap-bbox="true"
+     inkscape:bbox-nodes="true"
+     inkscape:snap-nodes="false"
+     inkscape:snap-bbox-edge-midpoints="true"
+     inkscape:snap-bbox-midpoints="true"
+     inkscape:bbox-paths="true"
+     inkscape:snap-others="false">
     <sodipodi:guide
        position="390,250"
        orientation="0,1"
@@ -132,7 +139,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -151,65 +158,7 @@
            height="61.871845"
            x="-411.00583"
            y="30.326229" /></flowRegion><flowPara
-         id="flowPara3735"></flowPara></flowRoot>    <flowRoot
-       xml:space="preserve"
-       id="flowRoot4582"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14.66666698px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none"
-       transform="translate(1205.9089,-2382.2536)"><flowRegion
-         id="flowRegion4584"><rect
-           id="rect4586"
-           width="643.75"
-           height="428.125"
-           x="635.9375"
-           y="282.3125" /></flowRegion><flowPara
-         id="flowPara4588"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:320px;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start">EN</flowPara></flowRoot>    <g
-       id="g4600-9"
-       transform="matrix(0.52352732,0,0,0.52352732,68.383558,-1667.9437)"
-       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:17.19108009;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1">
-      <path
-         inkscape:connector-curvature="0"
-         id="path4574-1"
-         d="m 415,-494.00001 -25,200 35,150 -35,150"
-         style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:17.19108009;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-      <path
-         sodipodi:nodetypes="ccccc"
-         inkscape:connector-curvature="0"
-         id="path4576-9"
-         d="m 270,-341.00001 23.89126,46.78253 22.09708,-41.98446 167.93786,37.56505 L 515,-325.00001"
-         style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:17.19108009;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-    </g>
-    <flowRoot
-       xml:space="preserve"
-       id="flowRoot4582-1"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14.66666698px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none"
-       transform="translate(337.69151,-1801.6773)"><flowRegion
-         id="flowRegion4584-3"><rect
-           id="rect4586-5"
-           width="643.75"
-           height="428.125"
-           x="635.9375"
-           y="282.3125" /></flowRegion><flowPara
-         id="flowPara4588-8"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:320px;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start">EN</flowPara></flowRoot>    <g
-       aria-label="EN"
-       transform="translate(1005.5266,-2650.8953)"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14.66666698px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none"
-       id="flowRoot4582-4-2">
-      <path
-         d="m -611.54221,968.30149 v -229.0625 h 165.625 v 18.26911 h -143.52221 v 82.91839 h 134.92846 v 18.875 h -134.92846 l -0.55243,89.96875 h 148.83471 l 0.55243,19.03125 z"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:320px;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start"
-         id="path4659-0"
-         inkscape:connector-curvature="0"
-         sodipodi:nodetypes="ccccccccccccc" />
-      <path
-         d="m -398.72971,968.30149 v -229.0625 h 23.06253 l 134.34377,187.84375 V 739.23899 h 23.0625 v 229.0625 h -23.0625 l -134.3438,-188 v 188 z"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:320px;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start"
-         id="path4661-6"
-         inkscape:connector-curvature="0"
-         sodipodi:nodetypes="ccccccccccc" />
-    </g>
-  </g>
+         id="flowPara3735" /></flowRoot>  </g>
   <g
      inkscape:groupmode="layer"
      id="layer3"
@@ -295,7 +244,8 @@
        id="g4776"
        inkscape:export-filename="C:\Users\isaac\Git\tencapsule\icon\IconMockups.png"
        inkscape:export-xdpi="96"
-       inkscape:export-ydpi="96">
+       inkscape:export-ydpi="96"
+       transform="translate(-493.75002,159.37501)">
       <g
          style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:16.62088585;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
          transform="matrix(1.6271914,0,0,1.3236358,-209.52201,1703.1496)"
@@ -330,7 +280,8 @@
        id="g4782"
        inkscape:export-filename="C:\Users\isaac\Git\tencapsule\icon\IconMockups.png"
        inkscape:export-xdpi="96"
-       inkscape:export-ydpi="96">
+       inkscape:export-ydpi="96"
+       transform="translate(-493.75002,159.37501)">
       <path
          sodipodi:open="true"
          d="m 2365.2716,-704.72671 a 379.22543,362.36429 0 0 1 -75.5336,427.66289 379.22543,362.36429 0 0 1 -450.6008,52.12996 379.22543,362.36429 0 0 1 -180.1609,-398.08163 379.22543,362.36429 0 0 1 348.3681,-278.02227"
@@ -365,7 +316,8 @@
        id="g4990"
        inkscape:export-filename="C:\Users\isaac\Git\tencapsule\icon\IconMockups.png"
        inkscape:export-xdpi="96"
-       inkscape:export-ydpi="96">
+       inkscape:export-ydpi="96"
+       transform="translate(-493.75002,159.37501)">
       <flowRoot
          transform="matrix(0.84032269,0,0,0.84032269,-608.1768,2024.9251)"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:266.66665649px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none"
@@ -405,71 +357,8 @@
       </g>
     </g>
     <g
-       id="g5015"
-       transform="translate(190.16504,-989.06115)"
-       inkscape:export-filename="C:\Users\isaac\Git\tencapsule\icon\IconMockups.png"
-       inkscape:export-xdpi="96"
-       inkscape:export-ydpi="96">
-      <g
-         id="g5133"
-         transform="translate(-433.1029,212.13203)">
-        <g
-           id="g4998-2"
-           transform="translate(-2014.0762,2039.0546)">
-          <g
-             id="flowRoot4582-4-29-70"
-             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14.66666698px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none"
-             transform="matrix(2.4687101,0,0,2.4687101,3408.3366,209.50688)"
-             aria-label="EN">
-            <path
-               sodipodi:nodetypes="ccccccccccccc"
-               inkscape:connector-curvature="0"
-               id="path4659-06-2"
-               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:320px;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start"
-               d="m -611.54221,968.30149 v -229.0625 h 165.625 v 18.26911 h -143.52221 v 82.91839 h 134.92846 v 18.875 h -134.92846 l -0.55243,89.96875 h 148.83471 l 0.55243,19.03125 z" />
-            <path
-               sodipodi:nodetypes="ccccccccccc"
-               inkscape:connector-curvature="0"
-               id="path4661-5-21"
-               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:320px;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start"
-               d="m -398.72971,968.30149 v -229.0625 h 23.06253 l 134.34377,187.84375 V 739.23899 h 23.0625 v 229.0625 h -23.0625 l -134.3438,-188 v 188 z" />
-          </g>
-          <g
-             style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:19.46123505;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-             transform="matrix(1.6739793,0,0,1.6739793,957.79135,2715.7452)"
-             id="g4600-11-0">
-            <path
-               style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:19.46123505;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-               d="m 415,-494.00001 -25,200 35,150 -35,150"
-               id="path4574-12-9"
-               inkscape:connector-curvature="0" />
-            <path
-               style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:19.46123505;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-               d="m 270,-341.00001 23.89126,46.78253 22.09708,-41.98446 167.93786,37.56505 L 515,-325.00001"
-               id="path4576-2-0"
-               inkscape:connector-curvature="0"
-               sodipodi:nodetypes="ccccc" />
-          </g>
-        </g>
-        <flowRoot
-           xml:space="preserve"
-           id="flowRoot4590-7-9-4"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:266.66665649px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none"
-           transform="matrix(2.4340355,0,0,2.4340355,-586.39002,2454.9031)"><flowRegion
-             id="flowRegion4592-8-2-2"
-             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:266.66665649px;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start"><rect
-               id="rect4594-7-6-3"
-               width="1353.6914"
-               height="363.03616"
-               x="751.5625"
-               y="593.25"
-               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:266.66665649px;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start" /></flowRegion><flowPara
-             id="flowPara4596-2-0-3"
-             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:320px;font-family:'Century Gothic';-inkscape-font-specification:'Century Gothic, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start">Capsule</flowPara></flowRoot>      </g>
-    </g>
-    <g
        id="g5163"
-       transform="translate(1829.6388,-2112.4815)"
+       transform="translate(1335.8888,-1953.1065)"
        inkscape:export-filename="C:\Users\isaac\Git\tencapsule\icon\IconMockups.png"
        inkscape:export-xdpi="96"
        inkscape:export-ydpi="96">
@@ -487,39 +376,39 @@
          id="path3737-8"
          style="opacity:1;fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:29.85551643;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:stroke markers fill" />
       <g
-         id="g4998-7"
-         transform="matrix(0.51187582,0,0,0.51187582,-484.02682,2235.0091)">
+         id="g4998-8"
+         transform="matrix(0.49376526,0,0,0.49376526,-455.70976,2306.859)">
         <g
-           id="flowRoot4582-4-29-7"
+           id="flowRoot4582-4-29-4"
            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14.66666698px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none"
            transform="matrix(2.4687101,0,0,2.4687101,3408.3366,209.50688)"
            aria-label="EN">
           <path
              sodipodi:nodetypes="ccccccccccccc"
              inkscape:connector-curvature="0"
-             id="path4659-06-6"
+             id="path4659-06-4"
              style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:320px;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start"
-             d="m -611.54221,968.30149 v -229.0625 h 165.625 v 18.26911 h -143.52221 v 82.91839 h 134.92846 v 18.875 h -134.92846 l -0.55243,89.96875 h 148.83471 l 0.55243,19.03125 z" />
+             d="m -611.54221,968.30149 v -229.0625 h 165.625 v 10.16771 h -151.62361 v 95.07049 h 143.02986 v 10.7736 h -143.02986 l -0.55243,102.12085 h 156.93611 l 0.55243,10.92985 z" />
           <path
              sodipodi:nodetypes="ccccccccccc"
              inkscape:connector-curvature="0"
-             id="path4661-5-2"
+             id="path4661-5-8"
              style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:320px;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start"
-             d="m -398.72971,968.30149 v -229.0625 h 23.06253 l 134.34377,187.84375 V 739.23899 h 23.0625 v 229.0625 h -23.0625 l -134.3438,-188 v 188 z" />
+             d="m -398.72971,968.30149 v -229.0625 h 14.96113 l 150.54657,204.04654 V 739.23899 h 14.9611 v 229.0625 h -14.9611 L -383.76861,764.0987 v 204.20279 z" />
         </g>
         <g
            style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:19.46123505;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-           transform="matrix(1.1416743,0,0,1.1416743,1240.0901,2586.13)"
-           id="g4600-11-7">
+           transform="matrix(1.3172508,0,0,1.3172508,1145.3845,2628.8825)"
+           id="g4600-11-00">
           <path
              style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:19.46123505;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
              d="m 415,-494.00001 -25,200 35,150 -35,150"
-             id="path4574-12-5"
+             id="path4574-12-2"
              inkscape:connector-curvature="0" />
           <path
              style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:19.46123505;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
              d="m 270,-341.00001 23.89126,46.78253 22.09708,-41.98446 167.93786,37.56505 L 515,-325.00001"
-             id="path4576-2-4"
+             id="path4576-2-99"
              inkscape:connector-curvature="0"
              sodipodi:nodetypes="ccccc" />
         </g>
@@ -529,7 +418,8 @@
        id="g5176"
        inkscape:export-filename="C:\Users\isaac\Git\tencapsule\icon\IconMockups.png"
        inkscape:export-xdpi="96"
-       inkscape:export-ydpi="96">
+       inkscape:export-ydpi="96"
+       transform="translate(-493.75002,159.37501)">
       <flowRoot
          xml:space="preserve"
          id="flowRoot4590-7-9"
@@ -546,8 +436,7 @@
            id="flowPara4596-2-0"
            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:320px;font-family:'Century Gothic';-inkscape-font-specification:'Century Gothic, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start">Capsule</flowPara></flowRoot>      <g
          id="g4998"
-         transform="translate(-3.444918,-87.5)"
-         style="">
+         transform="translate(-3.444918,-87.5)">
         <g
            id="flowRoot4582-4-29"
            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14.66666698px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none"
@@ -558,17 +447,17 @@
              inkscape:connector-curvature="0"
              id="path4659-06"
              style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:320px;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start"
-             d="m -611.54221,968.30149 v -229.0625 h 165.625 v 18.26911 h -143.52221 v 82.91839 h 134.92846 v 18.875 h -134.92846 l -0.55243,89.96875 h 148.83471 l 0.55243,19.03125 z" />
+             d="m -611.54221,968.30149 v -229.0625 h 165.625 v 10.16771 h -151.62361 v 95.07049 h 143.02986 v 10.7736 h -143.02986 l -0.55243,102.12085 h 156.93611 l 0.55243,10.92985 z" />
           <path
              sodipodi:nodetypes="ccccccccccc"
              inkscape:connector-curvature="0"
              id="path4661-5"
              style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:320px;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start"
-             d="m -398.72971,968.30149 v -229.0625 h 23.06253 l 134.34377,187.84375 V 739.23899 h 23.0625 v 229.0625 h -23.0625 l -134.3438,-188 v 188 z" />
+             d="m -398.72971,968.30149 v -229.0625 h 14.96113 l 150.54657,204.04654 V 739.23899 h 14.9611 v 229.0625 h -14.9611 L -383.76861,764.0987 v 204.20279 z" />
         </g>
         <g
            style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:19.46123505;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-           transform="matrix(1.1416743,0,0,1.1416743,1240.0901,2586.13)"
+           transform="matrix(1.3172508,0,0,1.3172508,1145.3845,2628.8825)"
            id="g4600-11">
           <path
              style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:19.46123505;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
@@ -634,6 +523,62 @@
            id="path4576-6-3"
            inkscape:connector-curvature="0"
            sodipodi:nodetypes="ccccc" />
+      </g>
+    </g>
+    <g
+       id="g4065"
+       transform="translate(-493.75002,159.37501)">
+      <flowRoot
+         xml:space="preserve"
+         id="flowRoot4590-7-9-4"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:266.66665649px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none"
+         transform="matrix(2.4340355,0,0,2.4340355,-829.32786,1677.974)"><flowRegion
+           id="flowRegion4592-8-2-2"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:266.66665649px;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start"><rect
+             id="rect4594-7-6-3"
+             width="1353.6914"
+             height="363.03616"
+             x="751.5625"
+             y="593.25"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:266.66665649px;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start" /></flowRegion><flowPara
+           id="flowPara4596-2-0-3"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:320px;font-family:'Century Gothic';-inkscape-font-specification:'Century Gothic, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start">Capsule</flowPara></flowRoot>      <g
+         transform="translate(-2071.8267,1251.0965)"
+         id="g4998-9">
+        <g
+           aria-label="EN"
+           transform="matrix(2.4687101,0,0,2.4687101,3408.3366,209.50688)"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14.66666698px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none"
+           id="flowRoot4582-4-29-1">
+          <path
+             d="m -611.54221,968.30149 v -229.0625 h 165.625 v 10.16771 h -151.62361 v 95.07049 h 143.02986 v 10.7736 h -143.02986 l -0.55243,102.12085 h 156.93611 l 0.55243,10.92985 z"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:320px;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start"
+             id="path4659-06-20"
+             inkscape:connector-curvature="0"
+             sodipodi:nodetypes="ccccccccccccc" />
+          <path
+             d="m -398.72971,968.30149 v -229.0625 h 14.96113 l 150.54657,204.04654 V 739.23899 h 14.9611 v 229.0625 h -14.9611 L -383.76861,764.0987 v 204.20279 z"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:320px;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start"
+             id="path4661-5-4"
+             inkscape:connector-curvature="0"
+             sodipodi:nodetypes="ccccccccccc" />
+        </g>
+        <g
+           id="g4600-11-72"
+           transform="matrix(1.3172508,0,0,1.3172508,1145.3845,2628.8825)"
+           style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:19.46123505;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1">
+          <path
+             inkscape:connector-curvature="0"
+             id="path4574-12-0"
+             d="m 415,-494.00001 -25,200 35,150 -35,150"
+             style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:19.46123505;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+          <path
+             sodipodi:nodetypes="ccccc"
+             inkscape:connector-curvature="0"
+             id="path4576-2-9"
+             d="m 270,-341.00001 23.89126,46.78253 22.09708,-41.98446 167.93786,37.56505 L 515,-325.00001"
+             style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:19.46123505;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+        </g>
       </g>
     </g>
   </g>
