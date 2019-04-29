@@ -39,3 +39,7 @@ $(function () {
         }
     });
 });
+
+$(window).on('scroll touchmove', function () {
+    $('header').toggleClass('following', $(document).scrollTop() > 0);
+});
