@@ -17,6 +17,7 @@ desktop.ini
 *.exe
 *.o
 *.so
+*.pyc
 
 # Packages #
 ############

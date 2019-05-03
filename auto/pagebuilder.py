@@ -3,6 +3,7 @@
 # GOAL: replace all CATCH Comments in base.html with content from input
 #       (which is a specially formatted file) and put the result in a new
 #       document
+from mini import indent_spaces
 """
 Definitions
 -----------
@@ -61,11 +62,23 @@ class Property:
     fetch(content_format_restriction:str=None)
         return str
         Gets the defined content (only if it is in requested format)
-    set(content:str, content_format:str='txt')
+    fill(content:str, content_format:str='txt')
         return int-error
         Defines the content for a Property instance
     """
-    pass
+    def fill(self, content, content_format='txt'):
+        if content_format not in ['txt', 'md', 'html']:
+            return 2  # Unsupported file type
+        self.content, self.content_format = content, content_format
+        return 0
+
+    def fetch(self, content_format_restriction=None):
+        if (content_format_restriction
+                and content_format_restriction != self.content_format):
+            return None
+        else:
+            return self.content
+
 
 
 class Tag:
@@ -76,16 +89,21 @@ class Tag:
     ----------
     name:str
         The type of tag
-    selfclose:bool
+    selfclose:bool=False
         Is the tag self-closing?
-    href:str=None
-        The href attribute of the tag
-    class:str=None
-        The class attribute of the tag
-    id:str=None
-        The id attribute of the tag
+    attributes:dict={}
+        All attributes of the tag
     """
-    pass
+    def __init__(self, name, selfclose=False, attributes={}):
+        self.name, self.selfclose = name, selfclose
+        self.attributes = attributes
+
+    def fetch_html(self):
+        attributes_str = str
+        # Remember to put a space at the beginning of attributes_str
+        if self.selfclose:
+            return f'<{self.name} {attributes_str} />'
+        return [f'<{self.name}{attributes_str}>', f'</{self.name}']
 
 
 class Element:
@@ -100,7 +118,17 @@ class Element:
         The list of str, Element, and Tag objects that populate the
         element
     """
-    pass
+    def __init__(self, tag, content_list):
+        self.tag, self.content_list = tag, content_list
+
+    def fetch_html(self, indentlevel=0):
+        content_str = ''
+        for item in self.content:
+            html = item.fetch_html()
+            if type(html) is list:
+                html.join()
+        taggedhtml = self.tag.fetch_html()
+        f"{taggedhtml[0]}\n{indent_spaces(content_str)}\n{taggedhtml[1]}"
 
 
 class Field(Property):
@@ -124,18 +152,18 @@ class Field(Property):
     convert_txt()
         return str
         Converts the defined content to plain text (no markup)
-    set(content:str, content_format:str='md')
-        Same as `Property.set`, but expects Markdown by default
+    fill(content:str, content_format:str='md')
+        Same as `Property.fill`, but expects Markdown by default
     fetchas(content_type)
         return str
         Gets the content in the specified format, either from storage or
             conversion, and makes it the main format
     """
     @staticmethod
-    def _markdowndefault_set(set_function):
-        """ Modifies the inserted set function to expect Markdown """
-        def new_set(self, content, content_format='md'):
-            set_function(self, content, content_format)
-        return new_set
+    def _markdowndefault_fill(fill_function):
+        """ Modifies the inserted fill function to expect Markdown """
+        def new_fill(self, content, content_format='md'):
+            fill_function(self, content, content_format)
+        return new_fill
 
-    set = _markdowndefault_set(set)
+    fill = _markdowndefault_fill(Property.fill)
